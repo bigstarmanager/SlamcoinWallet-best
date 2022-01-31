@@ -1,0 +1,58 @@
+#setting-input-country {
+    width: 100%;
+}
+#setting-input-country > div > div {
+    border: none !important;
+}
+.resetPassBtn {
+    position: absolute;
+    bottom: 10px;
+}
+.react-tel-input .form-control {
+    height: 72px !important;
+    width: 100% !important;
+    border: 1px solid #E1E4EB !important;
+    border-radius: 15px !important;
+}
+
+@media (max-width: 640px) {
+    .react-tel-input .form-control {
+        height: 40px !important;
+        width: 100% !important;
+        border: 1px solid #E1E4EB !important;
+        border-radius: 10px !important;
+    }   
+}
+.slam-auth-button {
+    background-color: #216af5;
+    height: inherit;
+    color: white;
+    border-radius: 20px;
+}
+.rememberMeLabel {
+    display: contents;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.Processing.balanceCheck {
+    color: #ffc107;
+}
+.Completed.balanceCheck {
+    color: #28a745;
+}
+.sidebar {
+    min-width: max-content;
+}
+.sendConfirmPadMobile {
+    background: url(../image/Union.png);
+    position: absolute;
+    background-size: cover;
+}
+.RegisterContent.Night .react-tel-input .phoneInput {
+    background: #171b27;
+    color: white;
+}
+.RegisterContent.Night .react-tel-input .flag-dropdown {
+    background: #171b27;
+}

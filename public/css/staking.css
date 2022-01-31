@@ -1,0 +1,112 @@
+.stackingContentBody {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+button:focus, button:focus-visible, input:focus-visible {
+    outline: none;
+}
+
+.blue-filled {
+    background-color: #216af5 !important;
+    color: white !important;
+}
+
+.red-text {
+    color: red !important;
+}
+
+.hidden-item {
+    display: none;
+}
+
+.show-item {
+    display: block;
+}
+
+.token-amount-text, .staking-days {
+    color: #a9adbd;
+    font-size: 14px;
+    padding: 20px 0 10px 0;
+}
+
+.amount-input {
+    font-size: 14px;
+    color: #1B1B1B;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #E1E4EB;
+    width: 100%;
+
+}
+
+.amount-input-body {
+    position: relative;
+}
+
+.amount-max {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #E1E4EB;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.choose-pool {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.NightMode .StackingComponent .staking2 .center-panel, .NightMode .down-panel {
+    background: #1D2333 !important;
+}
+
+.NightMode .panel-content-text {
+    color: white !important;
+}
+
+.NightMode .StackingComponent .staking2 .up-panel {
+    border-top: 2px solid #303240;
+    border-left: 2px solid #303240;
+    border-right: 2px solid #303240;
+}
+
+.NightMode .StackingComponent .staking2 .center-panel {
+    border: 2px solid #303240;
+}
+
+.NightMode .StackingComponent .staking2 .down-panel {
+    border-bottom: 2px solid #303240;
+    border-left: 2px solid #303240;
+    border-right: 2px solid #303240;
+}
+
+.NightMode .StackingComponent .staking1 .stake-status .enabled,
+.NightMode .StackingComponent .staking1 .stake-info,
+.NightMode .StackingComponent .content1-detail {
+    color: white;
+}
+
+.NightMode .amount-max {
+    background: #171B27;
+    border: 1px solid #303240;
+}
+.NightMode .amount-input {
+    background: #171B27;
+    border-color: #303240;
+    color: white;
+}
+
+.NightMode .panel-content-text.red-text  {
+    color: red !important;
+}

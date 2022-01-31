@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>085AAC40-F1C6-4557-91A2-47FDD2EF0A5D</title>
+    <g id="Web-/-Under-Construction" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wallet" transform="translate(-1017.000000, -1489.000000)" fill-rule="nonzero">
+            <g id="ethereum-eth" transform="translate(1017.000000, 1489.000000)">
+                <circle id="Oval" fill="#627EEA" cx="39" cy="39" r="39"></circle>
+                <g id="Group" transform="translate(23.000000, 10.000000)" fill="#FFFFFF">
+                    <polygon id="Path" fill-opacity="0.602" points="17.9952 0 17.9952 21.8099604 35.988 30.0470931"></polygon>
+                    <polygon id="Path" points="17.9952 0 0 30.0470931 17.9952 21.8099604"></polygon>
+                    <polygon id="Path" fill-opacity="0.602" points="17.9952 44.1805376 17.9952 59 36 33.4796416"></polygon>
+                    <polygon id="Path" points="17.9952 59 17.9952 44.1780788 0 33.4796416"></polygon>
+                    <polygon id="Path" fill-opacity="0.2" points="17.9952 40.750448 35.988 30.0470931 17.9952 21.8148781"></polygon>
+                    <polygon id="Path" fill-opacity="0.602" points="0 30.0470931 17.9952 40.750448 17.9952 21.8148781"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

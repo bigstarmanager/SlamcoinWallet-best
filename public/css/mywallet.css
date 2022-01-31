@@ -1,0 +1,6318 @@
+body {
+    background-color: white;
+    margin: 0px;
+    overflow: hidden;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.NightMode {
+    background: #171b27;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.right {
+    float: right;
+}
+
+.is-blurred {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #e1e4eb;
+    min-height: 2108px;
+    padding: 30px 16px 0 15px;
+    position: relative;
+    margin: -30px 0 0 0;
+}
+
+.sidebar-nav .widgetLine + .sidebar-nav-list-item {
+    display: none;
+}
+
+.NightMode .sidebar {
+    border-right: 2px solid #303240;
+}
+
+.sidebar-collapsed {
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #e1e4eb;
+    min-height: 2108px;
+    padding: 30px 16px 0 15px;
+    position: relative;
+    margin: -30px 0 0 0;
+}
+
+.sidebar-collapsed .phoneNumber,
+.sidebar-collapsed .email {
+    display: none;
+}
+
+.sidebar-nav {
+    padding: 15px;
+    margin-top: 30px;
+    height: calc(100vh - 185px);
+    overflow: auto;
+}
+
+.sidebar-nav::-webkit-scrollbar {
+    width: 0px;
+}
+
+.sidebar .chevron-sidebar {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.sidebar-collapsed .chevron-sidebar {
+    position: absolute;
+    right: -10px;
+    transform: rotate(180deg);
+}
+
+.sidebar-nav .sidebar-nav-list-item {
+    padding: 12px;
+    list-style: none;
+    border-radius: 10px;
+    width: auto;
+}
+
+.sidebar-nav .sidebar-nav-list-item a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    text-decoration: none;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #a9adbd;
+}
+
+.sidebar-nav .sidebar-nav-list-item-affiliation,
+.sidebar-nav .sidebar-nav-list-item-wallet {
+    padding: 15px;
+    list-style: none;
+    border-radius: 10px;
+    width: auto;
+}
+
+.sidebar-nav .sidebar-nav-list-item-affiliation a,
+.sidebar-nav .sidebar-nav-list-item-wallet a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    text-decoration: none;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #216af5;
+}
+
+.sidebar-nav .widgetLine {
+    border-top: 2px solid rgba(225, 228, 235, 0.6);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.sidebar-nav .active {
+    background-color: #e7e9ed;
+}
+
+.NightMode .sidebar-nav .active {
+    background-color: #1d2333;
+}
+
+.sidebar-nav .active a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #1b1b1b;
+}
+
+.NightMode .sidebar-nav .active a {
+    color: white;
+}
+
+.sidebar-nav .sidebar-nav-list-item .list-icon {
+    display: inline-block;
+    width: 25px;
+    vertical-align: middle;
+    /* position: absolute; */
+}
+
+.sidebar-nav .sidebar-nav-list-item .list-text {
+    display: inline-block;
+    max-width: 122px;
+    vertical-align: middle;
+    /* position: absolute; */
+    line-height: 1.2;
+    padding-left: 10px;
+}
+
+.sidebar-nav .sidebar-nav-list-item-affiliation .list-text,
+.sidebar-nav .sidebar-nav-list-item-wallet .list-text {
+    display: inline-block;
+    max-width: 122px;
+    vertical-align: middle;
+    /* position: absolute; */
+    line-height: 1.2;
+    padding-left: 10px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #216af5;
+}
+
+.sidebar-collapsed .sidebar-nav .sidebar-nav-list-item .list-text {
+    display: none;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+
+.sidebar-collapsed .apply-btn {
+    text-align: center;
+    display: none;
+}
+
+.sidebar-nav .sidebar-nav-list-item.phoneNumber {
+    margin-top: 15px;
+}
+
+.sidebar-nav .sidebar-nav-list-item.phoneNumber,
+.sidebar-nav .sidebar-nav-list-item.email {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #a9adbd;
+}
+
+.cVGhIP {
+    bottom: 30px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 12px;
+    background: black;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1100;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cVGhIP .cmc-icon {
+    color: rgb(22, 199, 132);
+}
+
+.cfMRaw {
+    box-sizing: border-box;
+    margin: 0px 4px 0px 0px;
+    height: 14px;
+    width: 14px;
+}
+
+.icon_copy {
+    cursor: pointer;
+}
+
+.icon_copy:active {
+    margin-top: -6px !important;
+    margin-left: -2px;
+}
+
+.content .panel-buy .panel-qr .address i:active {
+    margin-top: 0px !important;
+    top: -8px !important;
+}
+
+.SettingComponent .setting_content .Setting_2 .profile_link .link img:active {
+    margin-top: 10px !important;
+    margin-left: -2px !important;
+}
+
+.apply-btn {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.expanded {
+    width: 93%;
+    display: inline-block;
+    padding: 0 20px;
+    overflow: auto;
+    height: calc(100vh - 90px);
+}
+
+.main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.dashboardComponent .main-content {
+    padding-left: 20px;
+}
+
+.dashboardComponent .main-content {
+    overflow-x: auto;
+}
+
+.dashboardComponent .automargin_content {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.automargin_content .panel_left {
+    margin-left: 20px;
+    overflow-x: auto;
+    height: calc(100vh - 90px);
+}
+
+.automargin_content .panel_left::-webkit-scrollbar {
+    width: 0px;
+}
+
+.button {
+    height: 70px;
+    width: 186px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    transition-duration: 300ms;
+}
+
+.button:hover {
+    background-color: white;
+    color: #1b1b1b;
+}
+
+.button-blue {
+    width: 130px;
+    height: 37px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    transition-duration: 300ms;
+    border-color: #216af5;
+    color: #216af5;
+}
+
+.button-blue:hover {
+    background-color: white;
+    color: #1b1b1b;
+}
+
+.button-blue:hover {
+    background-color: #216af5;
+    color: white;
+}
+
+.button-blue-filled {
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    transition-duration: 300ms;
+    border-color: #216af5;
+    background-color: #216af5;
+    color: white;
+    width: 130px;
+    height: 37px;
+}
+
+.button-blue-filled:hover {
+    background-color: white;
+    color: #1b1b1b;
+}
+
+.button-blue-filled:hover {
+    color: white;
+    background-color: #0d59e7;
+}
+
+.button-blue-filled.small {
+    height: 49px;
+    width: 126px;
+}
+
+.button-full {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.button-apply-filled {
+    padding: 13px 46px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    transition-duration: 300ms;
+    border-color: #1b1b1b;
+    background-color: #1b1b1b;
+    color: white;
+    width: 218px;
+}
+
+.NightMode .button-apply-filled {
+    background-color: white;
+    color: #171b27;
+}
+
+.header {
+    height: 28px;
+    padding: 31px 40px 31px 40px;
+    /* max-width: 1400px; */
+    margin: auto;
+    box-sizing: content-box;
+}
+
+.header .logo {
+    /* padding: 2px 0; */
+    width: 181px;
+    height: 38px;
+}
+
+.header .options {
+    float: right;
+    display: flex;
+    height: 28px;
+    align-items: center;
+}
+
+.header .options .option_menu {
+    display: none;
+}
+
+.header .options .option {
+    display: none;
+}
+
+.header .options .switch_tab {
+    margin-right: 10px;
+}
+
+.header .options .switch_tab img,
+.sidebar-nav-list-item .switch_tab img {
+    width: 34px;
+    height: 34px;
+}
+
+.header .options .switch_tab .switch,
+.sidebar-nav-list-item .switch_tab .switch {
+    width: 50px;
+    height: 25px;
+    margin: 0px 10px;
+}
+
+.header .options .switch_tab .slider:before,
+.sidebar-nav-list-item .switch_tab .slider:before {
+    width: 21px;
+    height: 21px;
+}
+
+.header .options .switch_tab input:checked + .slider:before,
+.sidebar-nav-list-item .switch_tab input:checked + .slider:before {
+    transform: translateX(25px);
+}
+
+.header .options .option_menu,
+.header .options .close {
+    margin-left: 10px;
+    display: none;
+}
+
+.NightMode .option_menu,
+.NightMode .close {
+    color: white;
+}
+
+.header .options .option {
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.header .options .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    margin: auto;
+    box-sizing: content-box;
+}
+
+.content .panel_left .title {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 90px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.NightMode .content .title {
+    color: white;
+}
+
+.content .panels {
+    display: flex;
+    flex-direction: row;
+    background-color: #216af5;
+    border-radius: 16px;
+}
+
+.content .panels .panel-balance {
+    position: relative;
+    content-visibility: auto;
+    width: 100%;
+    max-height: 310px;
+    flex: 87%;
+    height: auto;
+    padding: 30px 30px 40px 30px;
+    background: url(../image/balanceBg_big.png);
+    background-size: cover;
+}
+
+.content .panels .panel-balance .panel-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.content .panels .panel-balance .panel-description {
+    width: auto;
+    max-width: 588px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-top: 30px;
+}
+
+.content .panels .panel-balance .panel-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .panels .panel-balance .panel-actions .panel-values {
+    display: flex;
+    align-items: baseline;
+}
+
+.content .panels .panel-balance .panel-actions .panel-values .panel-value {
+    font-size: 4.88rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.content .panels .panel-balance .panel-actions .panel-values .panel-value-small {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 15px;
+}
+
+.content .panels .panel-balance .effect-ring-left {
+    border: 24px solid rgba(255, 255, 255, 0.15);
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: -70px;
+    bottom: -60px;
+}
+
+.content .panels .panel-balance .effect-ring-right {
+    width: 340px;
+    height: 251px;
+    position: absolute;
+    right: calc(50% - 170px);
+    top: 0px;
+    transform: rotate(-0.43deg);
+}
+
+.content .panel_left .panel-buy {
+    display: none;
+}
+
+.content .panel-buy {
+    width: 325px;
+    position: relative;
+    margin-top: 110px;
+    margin-right: 40px;
+    margin-left: 29px;
+
+    border-radius: 25px;
+    border: 2px solid #eff2f5;
+}
+
+.NightMode .content .panel-buy {
+    border: 2px solid #303240;
+}
+
+.content .panel-buy .dropdown_selection {
+    padding: 20px;
+    background: #f0f5fb;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.content .panel-buy .dropdown_selection.noSelect {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.NightMode .content .panel-buy .dropdown_selection {
+    background: #1d2333;
+}
+
+.content .panel-buy .qrpad,
+.content .panel-buy .sendPad {
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 20px 19px;
+    display: flex;
+}
+
+.content .panel-buy .qrpad .walletAddress .title {
+    margin-right: 5px;
+}
+
+.content .panel-buy .sendPad {
+    flex-direction: column;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.content .panel-buy .sendPad .amount,
+.content .panel-buy .sendPad .wallet {
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9adbd;
+}
+
+.content .panel-buy .sendPad .wallet {
+    margin-top: 10px;
+}
+
+.content .panel-buy .sendPad .amountText,
+.content .panel-buy .sendPad .walletText {
+    margin-top: 7px;
+    width: 285px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #eff2f5;
+    outline: none;
+    background-color: transparent;
+    padding: 0px 10px;
+}
+
+.NightMode .content .panel-buy .sendPad .amountText,
+.NightMode .content .panel-buy .sendPad .walletText {
+    color: white;
+    border: 1px solid #303240;
+}
+
+.content .panel-buy .sendPad .amountMax {
+    font-size: 12px;
+    line-height: 15px;
+    color: #216af5;
+    margin-top: 5px;
+}
+
+.content .panel-buy .sendPad .networkFee {
+    font-size: 12px;
+    line-height: 15px;
+    color: #a9adbd;
+    margin-top: 5px;
+}
+
+.content .panel-buy .sendPad .button-blue,
+.content .panel-buy .sendPad .button-blue-filled {
+    height: 51px;
+    border-radius: 15px;
+}
+
+.NightMode .content .panel-buy .qrpad,
+.NightMode .content .panel-buy .sendPad {
+    background: #171b27;
+    border-top: none;
+    position: relative;
+}
+
+.content .panel-buy .qrpad > img {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.content .panel-buy .qrpad .walletAddress {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8abc1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.content .panel-buy .qrpad .walletAddress .icon_copy {
+    margin-top: -15px;
+    width: 14px;
+}
+
+.content .panel-buy .dropdown-panel.hidden {
+    display: none;
+}
+
+.content .panel-buy .dropdown-panel {
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: rgb(17 12 46 / 6%) 0px 3px 29px 0px;
+    margin: -25px -30px 0 -30px;
+    padding: 0px 30px 0px 30px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    bottom: 0px;
+}
+
+.content .panel-buy .dropdown-panel > div {
+    display: flex;
+    align-items: center;
+}
+
+.content .panel-buy .dropdown-panel > div:hover {
+    background-color: rgba(240, 240, 240, 0.5);
+    cursor: pointer;
+}
+
+.content .panel-buy .dropdown-panel > div > img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.content .panel-buy .dropdown-panel > div > .dropdown-value {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1b1b1b;
+}
+
+.content .panel-buy .dropdown-panel .dropdown_bnb {
+    border-bottom: 2px solid rgba(225, 228, 235, 0.3);
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.content .panel-buy .dropdown-panel .dropdown_eth {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.content .panel-buy .panel-title-small {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+}
+
+.content .panel-buy .dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.content .panel-buy .dropdown .dropdown-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.content .panel-buy .dropdown .dropdown-value {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1b1b1b;
+    padding: 0px 15px;
+}
+
+.NightMode .content .panel-buy .dropdown .dropdown-value {
+    color: white;
+}
+
+.content .panel-buy .dropdown .bnbDetail {
+    order: 1;
+    margin-left: auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a8abc1;
+}
+
+.content .panel-buy .send-recv-btn {
+    display: flex !important;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.content .panel-buy .send-recv-btn .sendConfirmPad {
+    background: url(../image/Union.png);
+    width: 364px;
+    height: 217px;
+    position: absolute;
+    right: 130px;
+    top: -70px;
+    background-size: cover;
+}
+
+.NightMode .content .panel-buy .send-recv-btn .sendConfirmPad {
+    background: url(../image/Union_night.png);
+}
+
+.confirmTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+}
+
+.sendConfirmModal .close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #a8abc1;
+}
+
+.sendConfirmModal .confirmTitle {
+    margin-top: 50px;
+}
+
+.NightMode .confirmTitle,
+.NightModal .confirmTitle {
+    color: #ffffff;
+}
+
+.confirmBtnGrup {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 22px 0px 15px;
+}
+
+.confirmBtnGrup div {
+    width: 115px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.confirmBtnGrup .Decline {
+    background: linear-gradient(0deg, #ff0000, #ff0000);
+    margin-right: 55px;
+}
+
+.confirmBtnGrup .Approve {
+    background: linear-gradient(0deg, #0ecb81, #0ecb81);
+}
+
+.content .panel-buy .send-recv-btn .button-blue-filled {
+    margin-left: 25px;
+    box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 0.4);
+}
+
+.content .panel-buy .bottom {
+    border: none;
+}
+
+.content .panel-buy .panel-qr {
+    width: 219px;
+    height: 198px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgb(17 12 46 / 8%) 0px 19px 29px 0px;
+    margin-top: 90px;
+    position: absolute;
+    z-index: 2;
+    margin-left: -20px;
+    border: 2px solid #eff2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.NightMode .content .panel-buy .panel-qr {
+    background: #1d2333;
+    border: none;
+}
+
+.content .panel-buy .panel-qr .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.content .panel-buy .panel-qr .image {
+    width: 131px;
+    height: 131px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.content .panel-buy .panel-qr .image svg {
+    width: 111px !important;
+    height: 111px !important;
+}
+
+.content .panel-buy .panel-qr .address {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9adbd;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content .panel-buy .panel-qr .address p {
+    position: relative;
+}
+
+.content .panel-buy .panel-qr .address i {
+    position: absolute;
+    top: -10px;
+}
+
+.content .token-sale .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #1b1b1b;
+}
+
+.content .token-sale .progress {
+    width: 100%;
+    height: 80px;
+}
+
+.content .token-sale .list-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .token-sale .list-content .content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content .token-sale .list-content .content-item .content-item-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b1b1b;
+}
+
+.content .token-sale .list-content .content-item .content-item-text-value {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+}
+
+.content .token-sale .list-content .content-item .content-item-icon {
+    display: flex;
+    align-items: center;
+}
+
+.content .token-sale .list-content .content-item .content-item-icon img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.content .token-sale .list-content .content-item .content-item-icon .name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+}
+
+.content .token-sale .actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .wallet-balance .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    color: #1b1b1b;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.NightMode .content .wallet-balance .title {
+    color: white;
+}
+
+.content .wallet-balance .balance-items {
+    display: flex;
+    justify-content: space-between;
+    min-width: 335px;
+    overflow: auto;
+}
+
+.content .wallet-balance .balance-items .balance-item {
+    padding: 30px 20px 30px 20px;
+    box-shadow: rgb(17 12 46 / 6%) 7px 4px 7px 0px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    display: flex;
+    width: 32%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+    background-color: #f0f5fb;
+    border: 2px solid #eff2f5;
+    min-width: 365px;
+    height: 129px;
+}
+
+.content .wallet-balance .balance-items .balance-item.highlighted {
+    border: 2px solid #d4dbe2;
+}
+
+.NightMode .content .wallet-balance .balance-items .balance-item.highlighted {
+    border: 2px solid #535761;
+}
+
+.content .wallet-balance .balance-items .balance-item:not(:first-child) {
+    margin-left: 17px;
+}
+
+.NightMode .content .wallet-balance .balance-items .balance-item {
+    background: #1d2333;
+    border: 1px solid #303240;
+}
+
+.content .wallet-balance .balance-items .balance-item:active {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    box-shadow: rgba(17, 12, 46, 0.2) 0px 3px 29px 0px;
+}
+
+.content .wallet-balance .balance-items .balance-item img {
+    height: 65px;
+    width: 65px;
+}
+
+.content .wallet-balance .balance-items .balance-item .balance-values {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.content .wallet-balance .balance-items .balance-item .balance-values .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .wallet-balance .balance-items .balance-item .balance-values .text .symbol {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b1b1b;
+    margin: 0px !important;
+}
+
+.NightMode .content .wallet-balance .balance-items .balance-item .balance-values .text .symbol {
+    color: white;
+}
+
+.content .wallet-balance .balance-items .balance-item .balance-values .text .amount {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b1b1b;
+}
+
+.NightMode .content .wallet-balance .balance-items .balance-item .balance-values .text .amount {
+    color: white;
+}
+
+.content .wallet-balance .balance-items .balance-item .balance-values .details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .wallet-balance .balance-items .balance-item .balance-values .details .symbol {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+    margin: 0px !important;
+}
+
+.content .wallet-balance .balance-items .balance-item .balance-values .details .amount {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+}
+
+.content .balance-history {
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: rgba(17, 12, 46, 0.03) 0px 19px 29px 0px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 45px;
+    border: 2px solid #eff2f5;
+    border-radius: 25px;
+}
+
+.NightMode .content .balance-history {
+    background: #171b27;
+    border: 2px solid #303240;
+}
+
+.content .balance-history .select_type {
+    background: #ffffff;
+    border: 1px solid #e1e4eb;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 172px;
+    padding: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1b1b1b;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+    background-position: right 20px top 20px;
+    background-size: 10px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.NightMode .content .balance-history .select_type {
+    color: white;
+}
+
+.NightMode .content .balance-history .select_type option {
+    background: #171b27;
+}
+
+.content .balance-history .panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NightMode .tickLabel {
+    font-family: Inter !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    fill: #a8abc1 !important;
+}
+
+.content .balance-history .panel-content .supply-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.NightMode .content .balance-history .panel-content .supply-content {
+    color: #ffffff;
+}
+
+.content .balance-history .panel-content .supply-content .saled-content {
+    color: #216af5;
+    margin-right: 8px !important;
+}
+
+.content .balance-history .panel-content .progressbar {
+    margin-top: 10px;
+}
+
+.content .balance-history .panel-content .progressbar-content {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9adbd;
+}
+
+.content .balance-history .panel-content .list-content {
+    margin-top: 30px;
+    padding-top: 20px;
+    background: #f0f5fb;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.NightMode .content .balance-history .panel-content .list-content {
+    background: #1d2333;
+}
+
+.content .balance-history .panel-content .actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 24px;
+    background: #f0f5fb;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.NightMode .content .balance-history .panel-content .actions {
+    background: #1d2333;
+}
+
+.content .balance-history .panel-content .content-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.content .balance-history .panel-content .content-item p:last-child {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9adbd;
+}
+
+.content .balance-history .panel-content .content-item .content-item-icon {
+    display: flex;
+    align-items: center;
+}
+
+.content .balance-history .panel-content .content-item .content-item-icon img {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+.content .balance-history .panel-content .content-item .content-item-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1b1b1b;
+}
+
+.NightMode .content .balance-history .panel-content .content-item .content-item-text {
+    color: white;
+}
+
+.content .balance-history .panel-header .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    color: #1b1b1b;
+}
+
+.NightMode .content .balance-history .panel-header .title {
+    color: white;
+}
+
+.content .balance-history .panel-header .combo {
+    width: 172px;
+    height: 49px;
+    border: 1px solid #e1e4eb;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1b1b1b;
+}
+
+.content .defi-staking .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 43px;
+    color: #1b1b1b;
+    margin-top: 45px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.NightMode .content .defi-staking .title {
+    color: white;
+}
+
+.content .defi-staking .staking-panel {
+    padding: 30px;
+    box-shadow: rgba(17, 12, 46, 0.03) 0px 19px 29px 0px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow-x: auto;
+    padding: 15px 25px 15px 25px;
+    background: #f0f5fb;
+    border: 2px solid #eff2f5;
+}
+
+.NightMode .content .defi-staking .staking-panel {
+    background: #1d2333;
+    border: 2px solid #303240;
+}
+
+.content .defi-staking .staking-panel .staking-table {
+    width: 100%;
+}
+
+.content .defi-staking .staking-panel .staking-table thead th:first-child {
+    text-align: left !important;
+}
+
+.content .defi-staking .staking-panel .staking-table tbody td:first-child {
+    text-align: left !important;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-header th {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a9adbd;
+    border: none;
+    border-bottom: 2px solid rgba(225, 228, 235, 0.3);
+    padding: 15px;
+    text-align: center !important;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-header th:first-child {
+    text-align: left;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-header th:last-child {
+    width: 156px;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-content {
+    text-align: center;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-content td {
+    padding: 15px;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-content img {
+    width: 34px;
+    height: 34px;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-content .column-token {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1b1b1b;
+}
+
+.NightMode .content .defi-staking .staking-panel .staking-table .table-content .column-token {
+    color: white;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-content .column-token img {
+    margin-right: 25px;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-content .column-APY {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0ecb81;
+}
+
+.content .defi-staking .staking-panel .staking-table .table-content .column-duration,
+.content .defi-staking .staking-panel .staking-table .table-content .column-lockAmount {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.NightMode .content .defi-staking .staking-panel .staking-table .table-content .column-duration,
+.NightMode .content .defi-staking .staking-panel .staking-table .table-content .column-lockAmount {
+    color: white;
+}
+
+.defi-staking.coming-soon .Modal-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.defi-staking.coming-soon .Modal-content .StakeComing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.defi-staking.coming-soon .Modal-content .StakeComing div {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.NightModal.defi-staking.coming-soon .Modal-content .StakeComing div {
+    color: white;
+}
+
+#myModal .modal-content {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(71, 84, 99, 0.15);
+    border-radius: 25px;
+    width: 561px;
+    height: 890px;
+    margin-top: 30px;
+}
+
+#myModal .Modal-content .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.NightModal #myModal .Modal-content .close {
+    color: white;
+}
+
+#myModal .Modal-content {
+    padding: 30px;
+    border-radius: 4px;
+    max-width: 561px;
+    box-sizing: border-box;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#myModal .Modal-content .select_type {
+    background: #ffffff;
+    border: 1px solid #e1e4eb;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 100%;
+    height: 70px;
+    padding: 20px 35px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1b1b1b;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+    background-position: right 32px top 32px;
+    background-size: 10px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.NightModal #myModal .Modal-content .select_type {
+    color: white;
+    border: 1px solid #303240;
+}
+
+#myModal .Modal-content .select_type > option {
+    height: 70px;
+}
+
+#myModal .Modal-content .select_type > option:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#myModal .Modal-content .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b1b1b;
+
+    border-bottom: 2px solid rgba(225, 228, 235, 0.6);
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+.NightModal #myModal .Modal-content .title {
+    color: white;
+}
+
+#myModal .Modal-content .type {
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+#myModal .Modal-content .type img {
+    width: 35px;
+    height: 35px;
+}
+
+.NightModal #myModal .Modal-content .type img {
+    color: white;
+}
+
+#myModal .Modal-content .type .type-name {
+    padding-left: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1b1b1b;
+}
+
+.NightModal #myModal .Modal-content .type .type-name {
+    color: white;
+}
+
+#myModal .Modal-content .select-box-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: #a9adbd;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+#myModal .Modal-content .input-big {
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid #e1e4eb;
+    display: flex;
+    align-items: center;
+}
+
+#myModal .Modal-content .input-big div {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1b1b1b;
+    margin-right: 25px;
+}
+
+.NightModal #myModal .Modal-content .input-big div {
+    color: white;
+}
+
+#myModal .Modal-content .input-big input {
+    outline: none;
+    border: none;
+    height: 65px;
+    padding-left: 35px;
+    border-radius: 15px;
+    font-size: 18px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: #a9adbd;
+    width: 100%;
+    background-color: transparent;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.NightModal .select_type option {
+    background: #171b27;
+}
+
+#myModal .Modal-content .amount-limitation {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 2px solid #e1e4eb;
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1b1b1b;
+}
+
+.NightModal #myModal .Modal-content .amount-limitation {
+    color: white;
+}
+
+#myModal .Modal-content .summary {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #1b1b1b;
+    padding-top: 30px;
+}
+
+.NightModal #myModal .Modal-content .summary {
+    color: white;
+}
+
+#myModal .Modal-content .summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+#myModal .Modal-content .summary-item p:first-child {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: #a9adbd;
+}
+
+#myModal .Modal-content .summary-item p:last-child {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #1b1b1b;
+}
+
+.NightModal #myModal .Modal-content .summary-item p:last-child {
+    color: white;
+}
+
+#myModal .Modal-content .summary-item .summary-item-percent {
+    color: #0ecb81 !important;
+}
+
+#myModal .Modal-content .button-blue-filled {
+    height: 70px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+#myModal .ModalOpen {
+    overflow: hidden;
+}
+
+#myModal .invisible {
+    display: none;
+}
+
+.select-box {
+    position: relative;
+    display: block;
+    width: 172px;
+    font-size: 18px;
+    color: #1b1b1b;
+    border: 1px solid #e1e4eb;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.select-box__current {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.select-box__current:focus + .select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+    animation-name: none;
+    z-index: 10000;
+}
+
+.select-box__current:focus + .select-box__list .select-box__option {
+    cursor: pointer;
+}
+
+.select-box__current:focus .select-box__icon {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 20px;
+    opacity: 0.3;
+    transition: 0.2s ease;
+}
+
+.select-box__value {
+    display: flex;
+}
+
+.select-box__input {
+    display: none;
+}
+
+.select-box__input:checked + .sel e ct-box _ _ i n put-text {
+    display: block;
+}
+
+.select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background-color: #fff;
+    line-height: 22px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.select-box__list {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+    animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+    animation-timing-function: step-start;
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.select-box__option {
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.select-box__option:hover,
+.select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+}
+
+.recent-transactions {
+    margin-bottom: 233px;
+}
+
+.content .recent-transactions .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b1b1b;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.NightMode .recent-transactions .title {
+    color: white;
+}
+
+.recent-transactions .transaction-items .transactionItem {
+    border-bottom: 2px solid rgba(225, 228, 235, 0.6);
+    padding-bottom: 15px;
+    margin-top: 15px;
+    min-width: 335px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemHeader {
+    display: flex;
+    align-items: center;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemHeader img {
+    width: 35px;
+    height: 35px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemHeader .tokenName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1b1b1b;
+    margin-left: 15px;
+}
+
+.NightMode .recent-transactions .transaction-items .transactionItem .itemHeader .tokenName {
+    color: white;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemHeader .itemStatus {
+    padding: 5px 16px 4px 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    display: inline-block;
+    height: 23px;
+    margin-left: 15px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemHeader .itemStatus.completed {
+    border-radius: 3px;
+    color: #0ecb81;
+    background: #b7f0da;
+}
+
+.NightMode .recent-transactions .transaction-items .transactionItem .itemHeader .itemStatus.completed {
+    background: #162c30;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemHeader .itemStatus.inprogress {
+    border-radius: 3px;
+    color: #f3ba2f;
+    background: #fcebc1;
+}
+
+.NightMode .recent-transactions .transaction-items .transactionItem .itemHeader .itemStatus.inprogress {
+    background: #2d2b28;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemHeader .itemStatus.rejected {
+    border-radius: 3px;
+    color: #ff0000;
+    background: #ffb3b3;
+}
+
+.NightMode .recent-transactions .transaction-items .transactionItem .itemHeader .itemStatus.rejected {
+    background: #2e1823;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemDate {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a9adbd;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemNetworkContent {
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 45px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemNetworkTitle {
+    color: #a9adbd;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemNetwork {
+    color: black;
+    display: flex;
+}
+
+.NightMode .recent-transactions .transaction-items .transactionItem .itemContent .itemNetwork {
+    color: white;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemAddressContent {
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemAddressContent .itemAddressTitle {
+    color: #a9adbd;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemAddressContent .itemAddress {
+    color: black;
+    margin-left: 3px;
+    overflow: auto;
+}
+
+.NightMode .recent-transactions .transaction-items .transactionItem .itemContent .itemAddressContent .itemAddress {
+    color: white;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemAddressContent img {
+    width: 12.33px;
+    height: 13.67px;
+    margin-top: -8px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemTxIDContent {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemDepositWallet {
+    display: none;
+}
+
+.NightMode .recent-transactions .transaction-items .transactionItem .itemContent .itemDepositWallet {
+    color: #a8abc1;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemTxIDContent .itemTxIDTitle {
+    color: #a9adbd;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemTxIDContent .itemTxID {
+    color: black;
+    margin-left: 3px;
+}
+
+.NightMode .recent-transactions .transaction-items .transactionItem .itemContent .itemTxIDContent .itemTxID {
+    color: white;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemContent .itemTxIDContent img {
+    width: 12.33px;
+    height: 13.67px;
+    margin-top: -8px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemFooter {
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemFooter .walletTitle {
+    color: #a9adbd;
+}
+
+.recent-transactions .transaction-items .transactionItem .itemFooter .depositWallet {
+    color: black;
+    margin-left: 3px;
+}
+
+@-webkit-keyframes HideList {
+    from {
+        transform: scaleY(1);
+    }
+
+    to {
+        transform: scaleY(0);
+    }
+}
+
+@keyframes HideList {
+    from {
+        transform: scaleY(1);
+    }
+
+    to {
+        transform: scaleY(0);
+    }
+}
+
+/*BuyModal*/
+.buyModal .modal_header .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.NightModal.buyModal .modal_header .close {
+    color: white;
+}
+
+.buyModal .modal-content {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(71, 84, 99, 0.15);
+    border-radius: 25px;
+    margin-top: 100px;
+    padding: 30px 30px 50px 30px;
+    width: 560px;
+    height: 590px;
+}
+
+.buyModal .modal-content .title {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px;
+    color: #1b1b1b;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(225, 228, 235, 0.6);
+}
+
+.NightModal.buyModal .modal-content .title {
+    color: white;
+    border-bottom: 2px solid #303240;
+}
+
+.buyModal .modal-content .warning {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.buyModal .modal-content .warning img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.buyModal .modal-content .warning .warning_text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+}
+
+.buyModal .modal-content .note {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #1b1b1b;
+
+    margin-top: 30px;
+}
+
+.NightModal.buyModal .modal-content .note {
+    color: white;
+}
+
+.buyModal .modal-content .buyTokenBtn {
+    display: flex;
+    margin-top: 10px;
+}
+
+.buyModal .modal-content .buyTokenBtn div {
+    width: 50%;
+    border: 1px solid #e1e4eb;
+    width: 251px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    cursor: pointer;
+}
+
+.NightModal.buyModal .modal-content .buyTokenBtn div {
+    border: 1px solid #303240;
+    color: white;
+}
+
+.buyModal .modal-content .buyTokenBtn .ethBtn {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.buyModal .modal-content .buyTokenBtn .bnbBtn {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.buyModal .modal-content .buyTokenBtn .active {
+    background: #216af5;
+    color: white;
+}
+
+.buyModal .modal-content .wallet_info {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.buyModal .modal-content .wallet_info img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.buyModal .modal-content .wallet_info .wallet_balance {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #216af5;
+}
+
+.buyModal .modal-content .inputBalance {
+    background: #ffffff;
+    border: 1px solid #e1e4eb;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 100%;
+    height: 70px;
+    padding: 24px 35px;
+    margin-top: 12px;
+}
+
+.NightModal.buyModal .modal-content .inputBalance {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #303240;
+}
+
+.NightModal.buyModal .modal-content .inputBalance input {
+    color: white;
+}
+
+.buyModal .modal-content .inputBalance input {
+    border: none;
+    background-color: transparent;
+}
+
+.buyModal .modal-content .inputBalance input:focus-visible {
+    outline: none;
+}
+
+.buyModal .modal-content .buyBtn {
+    background: linear-gradient(0deg, #216af5, #216af5);
+    box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 0.4);
+    border-radius: 15px;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.sendConfirmModal {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.sendConfirmModal .modal-dialog .modal-content {
+    width: 335px;
+    height: 189px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.NightModal .modal-dialog .modal-content {
+    border: 1px solid #303240;
+    background: #1d2333 !important;
+}
+
+.connectModal .modal-dialog {
+    display: flex;
+    justify-content: center;
+}
+
+.StackingComponent .expanded {
+    margin-top: 30px;
+}
+
+.connectModal .modal-content {
+    width: 670px;
+    height: 561px;
+    border: 1px solid #afc6e1;
+    box-shadow: 0px 4px 20px rgba(71, 84, 99, 0.15);
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.connectModal .modal-content .title {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b1b1b;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.NightModal.connectModal .modal-content .title {
+    color: white;
+}
+
+.connectModal .modal-content .close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.NightModal.connectModal .modal-content .close {
+    color: white;
+}
+
+.connectModal .modal-content .connectBtn {
+    background: #ffffff;
+    border: 1px solid #e1e4eb;
+    border-radius: 15px;
+    display: flex;
+    width: 570px;
+    height: 70px;
+    margin-top: 20px;
+    padding: 14px 35px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1b1b1b;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.NightModal.connectModal .modal-content .connectBtn {
+    color: white;
+}
+
+.connectModal .modal-content .footer {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #a9adbd;
+    margin-top: 20px;
+}
+
+.connectModal .modal-content .footer a {
+    color: #216af5;
+}
+
+@media (max-width: 1620px) {
+    .dashboardComponent .myWallet,
+    .dashboardComponent .balance-history,
+    .dashboardComponent .wallet-balance,
+    .dashboardComponent .defi-staking,
+    .dashboardComponent .recent-transactions {
+        width: 100%;
+    }
+
+    .NightMode .content .wallet-balance .balance-items .balance-item {
+        min-width: 325px;
+        height: 127px;
+    }
+
+    .content .wallet-balance .balance-items {
+        overflow: auto;
+    }
+
+    .dashboardComponent .recent-transactions {
+        overflow: auto;
+    }
+}
+
+@media (min-width: 1110px) and (max-width: 1620px) {
+    .content .panels .panel-balance .panel-description {
+        font-size: 15px;
+    }
+
+    .content .panels .panel-balance .panel-actions .panel-values .panel-value {
+        font-size: 33px !important;
+    }
+
+    .content .panels .panel-balance .panel-actions .panel-values .panel-value-small {
+        font-size: 20px;
+    }
+
+    .content .panels .panel-balance .panel-actions .panel-action {
+        height: 48px;
+        width: 105px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .content .panel_left .panel-buy {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+        height: unset;
+        border-radius: 25px;
+    }
+
+    .panel_right {
+        display: none;
+    }
+
+    .dashboardComponent .main-content {
+        padding: 0px;
+    }
+
+    .automargin_content .panel_left {
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 1337px) and (max-width: 1439px) {
+    .button-blue-filled {
+        min-width: 115px;
+        /* max-width: 140px; */
+    }
+
+    .button-blue {
+        min-width: 115px;
+        /* max-width: 140px; */
+    }
+
+    .sidebar-nav {
+        padding: 5px;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1336px) {
+    .sidebar-nav {
+        padding: 0px;
+    }
+
+    .button-apply-filled {
+        white-space: nowrap;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        color: #ffffff;
+    }
+
+    .button-blue-filled {
+        min-width: 120px;
+        /* max-width: 140px; */
+    }
+
+    .button-blue {
+        min-width: 120px;
+        /* max-width: 140px; */
+    }
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+    .content .panels {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .sidebar {
+        padding: 30px 5px 0 5px;
+    }
+
+    .sidebar-nav {
+        padding: 0px;
+    }
+
+    .button-blue-filled {
+        min-width: 120px;
+        margin-right: 30px;
+    }
+
+    .button-blue {
+        min-width: 120px;
+    }
+
+    .content .panels .panel-balance {
+        max-width: unset;
+    }
+
+    .content .panels .panel-balance .panel-actions .panel-values .panel-value {
+        font-size: 3.5rem;
+    }
+
+    .sidebar .chevron-sidebar {
+        top: 0px;
+    }
+}
+
+@media (max-width: 980px) {
+    .content .panels {
+        flex-direction: column;
+    }
+
+    .content .panels .panel-balance {
+        max-width: unset;
+    }
+
+    .sidebar {
+        margin: -20px 0 0 0;
+    }
+
+    .sidebar-nav {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .button-apply-filled {
+        padding: 13px 40px;
+    }
+
+    .content .wallet-balance .balance-items {
+        flex-direction: column;
+    }
+
+    .content .wallet-balance .balance-items .balance-item {
+        width: auto;
+        margin-top: 17px;
+        margin-left: 0px !important;
+    }
+
+    .content .panels .panel-balance .panel-actions .panel-values .panel-value {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+    .recent-transactions .transaction-items .transactionItem .itemContent .itemAddressContent .itemAddress {
+        overflow: inherit;
+    }
+
+    .dashboardComponent .recent-transactions {
+        order: 6;
+    }
+
+    .sidebar-nav .widgetLine + .sidebar-nav-list-item {
+        display: block;
+    }
+
+    .content .panel_left .title {
+        padding-top: 0px;
+    }
+
+    .header {
+        padding: 20px 16px 20px 16px;
+    }
+
+    .header .options .switch_tab {
+        display: none;
+    }
+
+    .header .options .option_menu,
+    .header .options .close {
+        display: block;
+    }
+
+    .content .panel-buy .sendPad .amountText,
+    .content .panel-buy .sendPad .walletText {
+        width: 100%;
+    }
+
+    .content .panel_left .panel-buy {
+        border-radius: 12px;
+    }
+
+    .automargin_content .panel_left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myWallet {
+        order: 1;
+    }
+
+    .wallet-balance {
+        order: 2;
+    }
+
+    .panel-buy {
+        order: 3;
+    }
+
+    .dashboardComponent .main-content {
+        width: unset;
+        overflow-x: hidden;
+    }
+
+    .content .panel_right .panel-buy {
+        display: none;
+    }
+
+    .content .panel-buy .dropdown_selection {
+        background-color: white;
+    }
+
+    .content .panel-buy .dropdown_selection {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .content .panel-buy .dropdown_selection {
+        padding: 9px 13px;
+    }
+
+    .content .panel-buy .dropdown {
+        margin-top: 7px;
+        padding-bottom: 9px;
+        border-bottom: 1px solid rgba(225, 227, 235, 0.3);
+    }
+
+    .NightMode .content .panel-buy .dropdown {
+        border-bottom: 1px solid rgba(48, 50, 64, 0.3);
+    }
+
+    .content .panel-buy .dropdown_selection.noSelect {
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .content .panel-buy .qrpad,
+    .content .panel-buy .sendPad {
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .dashboardComponent .automargin_content {
+        width: 100%;
+        /* padding: 0px 20px; */
+    }
+
+    .header .options {
+        margin-right: 0px;
+        position: absolute;
+        margin-top: -30px;
+        z-index: 1;
+    }
+
+    .header .options_close {
+        margin-right: 0px;
+        margin-top: -30px;
+        z-index: 1;
+    }
+
+    .option_close {
+        position: absolute !important;
+        margin-top: -30px !important;
+        z-index: 1 !important;
+        margin-left: 82% !important;
+    }
+
+    .apply-btn {
+        display: flex;
+        margin-left: 14px;
+    }
+
+    .panel-qr {
+        position: absolute !important;
+    }
+
+    #myModal .Modal-content {
+        padding: 15px;
+    }
+
+    #myModal .Modal-content .title {
+        line-height: 22px;
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    #myModal .Modal-content .type {
+        padding-top: 22px;
+    }
+
+    #myModal .Modal-content .type .type-name {
+        font-size: 14px;
+        line-height: 12px;
+        padding-left: 12px;
+    }
+
+    #myModal .Modal-content .type img {
+        width: 17.5px;
+        height: 17.5px;
+    }
+
+    #myModal .Modal-content .select-box-name {
+        line-height: 12px;
+        font-size: 12px;
+        padding-top: 14px;
+        padding-bottom: 4px;
+    }
+
+    #myModal .Modal-content .select_type {
+        border-radius: 8px;
+        font-size: 12.00219px;
+        line-height: 20px;
+        padding: 12px 18px;
+        height: 45px;
+        background-position: right 19px top 20px;
+    }
+
+    #myModal .Modal-content .input-big {
+        height: 45px;
+        border-radius: 8px;
+    }
+
+    #myModal .Modal-content .input-big input {
+        font-size: 12.00219px;
+        line-height: 13px;
+        height: 36px;
+        padding-left: 18px;
+    }
+
+    #myModal .Modal-content .amount-limitation {
+        font-size: 12px;
+        line-height: 11px;
+    }
+
+    #myModal .Modal-content .summary {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 12px;
+        padding-top: 13px;
+    }
+
+    #myModal .Modal-content .summary-item p:first-child {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    #myModal .Modal-content .summary-item p:last-child {
+        font-size: 12px;
+        line-height: 11px;
+    }
+
+    #myModal .Modal-content .button-blue-filled {
+        border-radius: 8px;
+        height: 35px;
+        font-size: 12px;
+        line-height: 11px;
+        margin-top: 15px;
+    }
+
+    #myModal .Modal-content .close {
+        right: 15px;
+        top: 7px;
+    }
+
+    #myModal .Modal-content .summary-item {
+        margin-top: 15px;
+    }
+
+    #myModal .Modal-content .input-big div {
+        font-size: 12px;
+        line-height: 11px;
+    }
+
+    .defi-staking .modal-content {
+        width: 310px !important;
+        height: 486px !important;
+        border-radius: 13px !important;
+        margin: auto;
+        margin-top: 100px !important;
+    }
+
+    .buyModal .modal-content {
+        padding: 18px;
+    }
+
+    .buyModal .modal-content {
+        width: 335px;
+        height: 400px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 15px;
+    }
+
+    .buyModal .modal-content .title {
+        font-size: 18px !important;
+        padding-bottom: 18px;
+    }
+
+    .buyModal .modal-content .buyTokenBtn {
+        margin-top: 5px;
+    }
+
+    .buyModal .modal-content .wallet_info {
+        margin-top: 14px;
+    }
+
+    .buyModal .modal-content .wallet_info img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .buyModal .modal-content .wallet_info .wallet_balance {
+        font-size: 10px;
+    }
+
+    .buyModal .modal-content .inputBalance {
+        border-radius: 9px;
+        height: 42px;
+        padding: 14px 21px;
+        font-size: 10px;
+    }
+
+    .buyModal .modal-content .warning img {
+        width: 53px;
+        height: 53px;
+    }
+
+    .buyModal .modal-content .warning .warning_text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .buyModal .modal-content .note {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #1b1b1b;
+
+        margin-top: 15px;
+    }
+
+    .buyModal .modal-content .buyTokenBtn .ethBtn {
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+    }
+
+    .buyModal .modal-content .buyTokenBtn .bnbBtn {
+        border-top-right-radius: 9px;
+        border-bottom-right-radius: 9px;
+    }
+
+    .buyModal .modal-content .buyTokenBtn div {
+        width: 150px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .buyModal .modal-content .buyBtn {
+        margin-top: 30px;
+        height: 42px;
+        border-radius: 9px;
+        font-size: 18px;
+    }
+
+    .content .panel-buy .sendPad .button-blue,
+    .content .panel-buy .sendPad .button-blue-filled {
+        height: 40px;
+        border-radius: 8px;
+    }
+
+    .button-blue {
+        width: 100%;
+    }
+
+    .content .balance-history {
+        padding: 0 13px 13px 13px;
+        border-radius: 12px;
+        order: 4;
+    }
+
+    .defi-staking {
+        order: 5;
+    }
+
+    .content .balance-history .panel-content .actions {
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .content .myWallet .title {
+        /* font-size: 24px;
+        line-height: 29px; */
+        font-size: 36px;
+        line-height: 43px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .content .balance-history .panel-header .title,
+    .content .wallet-balance .title,
+    .content .defi-staking .title,
+    .content .recent-transactions .title {
+        /* font-size: 24px; */
+        padding: 0px;
+        margin-top: 30px !important;
+        margin-bottom: 10px !important;
+        /* font-family: SF Pro Display Regular; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent {
+        display: grid;
+        grid-template-areas:
+            "date wallet wallet"
+            "network network network";
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent > .itemNetwork {
+        margin-top: 10px;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent .itemAddressContent img,
+    .recent-transactions .transaction-items .transactionItem .itemContent .itemTxIDContent img {
+        margin-top: -4px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar.mobileSidebar {
+        display: block;
+    }
+
+    .header .options .option {
+        display: none;
+    }
+
+    .header .options .option_menu:first-child {
+        display: block;
+    }
+
+    .header .options .avatar {
+        display: none;
+    }
+
+    .content .defi-staking .staking-panel {
+        border-radius: 12px;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .content > div:first-child {
+        position: absolute;
+        z-index: 3;
+        background: white;
+        width: 100%;
+    }
+
+    .NightMode .content > div:first-child {
+        background: #171b27;
+    }
+
+    .sidebar .chevron-sidebar {
+        display: none;
+    }
+
+    .content .panels {
+        flex-direction: row;
+    }
+
+    .content .panels .panel-balance .panel-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .content .panels .panel-balance .panel-description {
+        font-size: 10px;
+        padding-top: 11px;
+        line-height: 12px;
+        font-weight: 500;
+        margin-right: 44px !important;
+    }
+
+    .content .panels .panel-balance .panel-actions .panel-values .panel-value {
+        font-size: 20px;
+    }
+
+    .content .panels .panel-balance .panel-actions .panel-values .panel-value-small {
+        font-size: 12px;
+    }
+
+    .content .panels .panel-balance {
+        padding: 13px;
+        border-radius: 12px;
+        background: url(../image/balanceBg_small.png);
+        background-size: cover;
+    }
+
+    .content .panels .panel-balance .panel-actions {
+        margin-top: 15px;
+    }
+
+    .content .panels .panel-balance .panel-actions .panel-action {
+        width: 79px;
+        height: 30px;
+        border-radius: 6px;
+        font-size: 12px;
+        right: 11%;
+        top: -33px;
+    }
+
+    .content .panels .panel-balance .effect-ring-left {
+        width: 81px;
+        height: 81px;
+        bottom: 0px;
+        left: -40px;
+    }
+
+    .content .panels .panel-balance .effect-ring-right {
+        width: 190px;
+        height: 147px;
+        right: calc(50% - 200px);
+        top: -40px;
+    }
+
+    .content .panel-buy .send-recv-btn {
+        width: 100%;
+    }
+
+    .content .panel-buy .qrpad img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .content .panel-buy .qrpad .walletAddress .title {
+        font-size: 12px !important;
+        padding: 0px;
+    }
+
+    .content .panel-buy .button-blue,
+    .content .panel-buy .button-blue-filled {
+        width: 50% !important;
+        height: 30px;
+    }
+
+    .content .panel-buy .panel-title-small {
+        font-size: 12px;
+    }
+
+    .content .panel-buy .dropdown .dropdown-icon,
+    .content .panel-buy .dropdown-panel > div > img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .content .panel-buy .dropdown .dropdown-value,
+    .content .panel-buy .dropdown-panel > div > .dropdown-value {
+        font-size: 14px;
+    }
+
+    .content .balance-history .select_type {
+        display: none;
+    }
+
+    .content .balance-history .panel-content .list-content {
+        margin: 13px -13px 0px -13px;
+        padding: 13px 13px 0px 13px;
+    }
+
+    .content .balance-history .panel-content .actions {
+        margin: 0px -13px -13px -13px;
+        padding: 0px 13px 13px 13px;
+    }
+
+    .content .balance-history .panel-content .content-item {
+        margin-top: 15px;
+    }
+
+    .content .balance-history .panel-content .content-item .content-item-text,
+    .content .balance-history .panel-content .content-item p:last-child {
+        font-size: 14px;
+    }
+
+    .content .balance-history .panel-content .content-item .content-item-icon img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .content .wallet-balance .title {
+        display: inline-block;
+        padding: 0px;
+        margin-top: 27px !important;
+        margin-bottom: 10px !important;
+
+        /* font-family: SF Pro Display Regular; */
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .content .wallet-balance .balance-items {
+        flex-direction: row;
+        min-width: unset;
+        overflow: auto;
+        height: 70px;
+    }
+
+    .content .wallet-balance .balance-items .balance-item {
+        min-width: 204px !important;
+        max-height: 64px;
+        height: inherit !important;
+        border-radius: 12px;
+        margin-top: 0px;
+        padding: 16px 10px 15px 15px;
+        margin-right: 9px;
+        box-shadow: none;
+    }
+
+    .content .wallet-balance .balance-items .balance-item:active {
+        box-shadow: rgb(17 12 46 / 6%) 7px 4px 7px 0px;
+    }
+
+    .content .wallet-balance .balance-items .balance-item .balance-values {
+        margin-left: 10px;
+    }
+
+    .content .wallet-balance .balance-items .balance-item .balance-values p {
+        display: inline-block !important;
+    }
+
+    .content .wallet-balance .balance-items .balance-item img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .content .wallet-balance .balance-items .balance-item .balance-values .details {
+        margin-top: 6px;
+    }
+
+    .content .wallet-balance .balance-items .balance-item .balance-values .text .symbol,
+    .content .wallet-balance .balance-items .balance-item .balance-values .text .amount {
+        font-size: 14px;
+        height: 17px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content .wallet-balance .balance-items .balance-item .balance-values .details .symbol,
+    .content .wallet-balance .balance-items .balance-item .balance-values .details .amount {
+        font-size: 12px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        height: 15px;
+    }
+
+    .content .wallet-balance .balance-items .balance-item .balance-values .text {
+        height: 12px;
+    }
+
+    .content .defi-staking .staking-panel .staking-table .table-header th {
+        font-size: 14px;
+        padding: 0px 5px;
+        white-space: nowrap;
+    }
+
+    .content .defi-staking .staking-panel .staking-table .table-content td {
+        padding: 0px 5px;
+        font-size: 14px !important;
+    }
+
+    .NightMode .staking-button {
+        background: #171b27 !important;
+        color: white !important;
+    }
+
+    .content .defi-staking .staking-panel .staking-table .table-content .column-token {
+        display: flex;
+        height: 38.5px;
+        align-items: center;
+    }
+
+    .content .defi-staking .staking-panel .staking-table .table-content .column-token img {
+        margin-right: 7.5px;
+    }
+
+    .content .defi-staking .staking-panel .staking-table .table-content img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .button-blue-filled.small {
+        min-width: 90px;
+        min-height: 26px;
+        width: 61.5px;
+        height: 22.5px;
+        border-radius: 6px;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemHeader img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemHeader .tokenName {
+        font-size: 14px;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemHeader .itemStatus {
+        font-size: 12px;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent > div,
+    .recent-transactions .transaction-items .transactionItem .itemContent > div > div {
+        font-size: 12px !important;
+        line-height: 10px !important;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent .itemDate {
+        order: 1;
+        grid-area: date;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent .itemWallet {
+        order: 2;
+        display: flex;
+        grid-column: wallet;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent .itemNetwork {
+        order: 3;
+        display: flex;
+        grid-column: network;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent .itemWallet .itemDepositWallet {
+        display: flex;
+        margin-right: 32px;
+    }
+
+    .recent-transactions .transaction-items .transactionItem .itemContent .itemNetworkContent {
+        margin-right: 12px;
+    }
+
+    .coming-soon #myModal .Modal-content {
+        position: absolute;
+        width: 100%;
+        height: 480px;
+    }
+
+    .defi-staking.coming-soon .Modal-content .StakeComing img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .defi-staking.coming-soon .Modal-content .StakeComing div {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .connectModal {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .connectModal .modal-dialog {
+        margin: 0px;
+        display: block;
+    }
+
+    .connectModal .modal-dialog .modal-content {
+        margin: 0px 40px 0px 0px;
+        width: 100%;
+        height: inherit;
+        padding: 50px 20px;
+    }
+
+    .connectModal .modal-content .close {
+        top: 25px;
+        right: 25px;
+    }
+
+    .connectModal .modal-content .title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .connectModal .modal-content .connectBtn {
+        width: 100%;
+        padding: 14px 20px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .connectModal .modal-content .footer {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+.select-box.big {
+    box-sizing: content-box;
+    height: 70px;
+    width: 100%;
+}
+
+.select-box.big .select-box__input-text {
+    padding: 24px 35px;
+}
+
+.AffiliationComponent .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #1b1b1b;
+}
+
+.AffiliationComponent .affiliation {
+    padding: 30px;
+    box-shadow: rgb(17 12 46 / 3%) 0px 19px 29px 0px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow-x: auto;
+    padding: 15px 20px;
+}
+
+.AffiliationComponent .affiliation table {
+    width: 100%;
+}
+
+.AffiliationComponent .affiliation table thead th {
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #a9adbd;
+
+    border-bottom: 2px solid rgba(225, 228, 235, 0.6);
+    padding: 20px 15px;
+}
+
+.AffiliationComponent .affiliation table thead th:first-child {
+    text-align: left;
+}
+
+.AffiliationComponent .affiliation table thead th:last-child {
+    text-align: right;
+}
+
+.AffiliationComponent .affiliation table tbody td {
+    text-align: center;
+
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1b1b1b;
+    padding: 10px 15px;
+}
+
+.NightMode .AffiliationComponent .affiliation table tbody td {
+    color: white;
+}
+
+.AffiliationComponent .affiliation table tbody tr:first-child td {
+    padding-top: 30px;
+}
+
+.AffiliationComponent .affiliation table tbody td:first-child {
+    text-align: left;
+}
+
+.AffiliationComponent .affiliation table tbody td:last-child {
+    text-align: right;
+}
+
+.AffiliationComponent .affiliation .bottom {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1b1b1b;
+}
+
+.AffiliationComponent .affiliation .bottom .total {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.AffiliationComponent .affiliation .bottom .total_value {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.AffiliationComponent .affiliation .pagination,
+.TransactionComponent .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NightMode .AffiliationComponent .affiliation .pagination,
+.NightMode .TransactionComponent .pagination {
+    color: white;
+}
+
+.AffiliationComponent .affiliation select,
+.TransactionComponent .recent-transactions select {
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.NightMode .AffiliationComponent .affiliation select,
+.NightMode .TransactionComponent .recent-transactions select {
+    background-color: transparent;
+    color: white;
+}
+
+.NightMode .AffiliationComponent .affiliation select option,
+.NightMode .TransactionComponent .recent-transactions select option {
+    background: #171b27;
+}
+
+.AffiliationComponent .affiliation .pagination button,
+.TransactionComponent .pagination button {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    padding: 0.5rem 0.75rem;
+}
+
+.AffiliationComponent .affiliation .pagination button,
+.TransactionComponent .pagination button {
+    border-radius: 6px;
+    color: #6999db;
+}
+
+.AffiliationComponent .affiliation .pagination .pageControl button:not(:first-child),
+.TransactionComponent .pagination .pageControl button:not(:first-child) {
+    margin-left: 7px;
+}
+
+.AffiliationComponent .affiliation .pagination .pageControl,
+.TransactionComponent .pagination .pageControl {
+    display: flex;
+    color: #6999db;
+}
+
+.NightMode .AffiliationComponent .affiliation .pagination .pageControl button,
+.NightMode .TransactionComponent .pagination .pageControl button {
+    background: #171b27;
+    border: 1px solid #303240;
+}
+
+.AffiliationComponent .affiliation .pagination button:disabled,
+.TransactionComponent .pagination button:disabled {
+    color: grey !important;
+}
+
+.NightMode .AffiliationComponent .affiliation .pagination .pageControl input,
+.NightMode .TransactionComponent .pagination .pageControl input {
+    background-color: transparent;
+    border: 1px solid #303240;
+    color: white;
+    width: 42px !important;
+    height: 42px !important;
+}
+
+.AffiliationComponent .affiliation .pagination .btnlast,
+.TransactionComponent .pagination .btnlast {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.AffiliationComponent .affiliation .pagination .pageNum,
+.TransactionComponent .pagination .pageNum {
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.AffiliationComponent .affiliation .pagination .pageNum,
+.TransactionComponent .pagination .pageNum {
+    border: 1px solid #dee2e6;
+    padding: 0px 10px;
+    border-radius: 6px;
+}
+
+.NightMode .AffiliationComponent .affiliation .pagination .pageNum,
+.NightMode .TransactionComponent .pagination .pageNum {
+    background: #171b27;
+    border: 1px solid #303240;
+}
+
+@media (max-width: 640px) {
+    .header .logo {
+        width: 149.18px;
+        height: 31.32px;
+        display: block;
+        margin: auto;
+    }
+
+    .sidebar-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar-nav li,
+    .sidebar-nav div {
+        order: 3;
+    }
+
+    .sidebar-nav .sidebar-nav-list-item-affiliation {
+        order: 1;
+    }
+
+    .sidebar-nav .sidebar-nav-list-item-wallet {
+        order: 2;
+    }
+
+    .TransactionComponent .pagination {
+        width: 480px;
+    }
+
+    .AffiliationComponent .affiliation {
+        min-width: 100%;
+        max-height: 500px;
+    }
+
+    .AffiliationComponent .affiliation table {
+        width: 680px;
+    }
+
+    .AffiliationComponent .title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .AffiliationComponent .affiliation .pagination {
+        width: 680px;
+    }
+}
+
+/* Transaction Component */
+
+.TransactionComponent .recent-transactions {
+    margin-top: 20px;
+    padding: 15px 20px;
+}
+
+.TransactionComponent .main-content {
+    width: 100vw;
+    overflow-x: auto;
+    height: calc(100vh - 90px);
+}
+
+.TransactionComponent .title {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #1b1b1b;
+}
+
+.TransactionComponent .transaction {
+    padding: 30px;
+    box-shadow: rgb(17 12 46 / 3%) 0px 19px 29px 0px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow-x: auto;
+    padding: 15px 20px;
+}
+
+.TransactionComponent .transaction table {
+    width: 100%;
+}
+
+.TransactionComponent .transaction table thead th {
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #a9adbd;
+
+    border-bottom: 2px solid rgba(225, 228, 235, 0.6);
+    padding: 20px 15px;
+}
+
+.TransactionComponent .transaction table thead th:first-child {
+    text-align: left;
+}
+
+.TransactionComponent .transaction table thead th:last-child {
+    text-align: right;
+}
+
+.TransactionComponent .transaction table tbody td {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1b1b1b;
+    padding: 10px 15px;
+}
+
+.TransactionComponent .transaction table tbody tr:first-child td {
+    padding-top: 30px;
+}
+
+.TransactionComponent .transaction table tbody td:first-child {
+    text-align: left;
+}
+
+.TransactionComponent .transaction table tbody td:last-child {
+    text-align: right;
+}
+
+.TransactionComponent .transaction .bottom {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1b1b1b;
+}
+
+.TransactionComponent .transaction table tbody .type_swap {
+    color: red;
+}
+
+.TransactionComponent .transaction table tbody .type_deposit {
+    color: #0ecb81;
+}
+
+@media (max-width: 540px) {
+    .TransactionComponent .title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .recent-transactions {
+        min-height: calc(100vh - 190px);
+        overflow: auto;
+        margin-bottom: 0px;
+    }
+}
+
+.SettingComponent .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+}
+
+.SettingComponent .main-content {
+    width: 100vw;
+    overflow-x: auto;
+    height: calc(100vh - 90px);
+}
+
+.SettingComponent .automargin_content {
+    margin: auto;
+    width: 1000px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 19px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch_tab .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.switch_tab .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #2196f3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 36px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.SettingComponent .setting_content {
+    display: flex;
+}
+
+.SettingComponent .setting_content .Setting_1 {
+    display: flex;
+    margin-right: 36px;
+    width: 100%;
+}
+
+.SettingComponent .setting_content .Setting_1 .avatar_tab {
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.SettingComponent .setting_content .Setting_1 .avatar_tab .avatar {
+    background: linear-gradient(0deg, #e7e9ed, #e7e9ed);
+    border: 7px solid #ffffff;
+    padding: 42px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SettingComponent .setting_content .Setting_1 .avatar_tab .switch_tab {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.SettingComponent .setting_content .Setting_1 .avatar_tab .switch_tab .profile_email {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #a9adbd;
+    margin-right: 13px;
+}
+
+.SettingComponent .setting_content .Setting_1 .avatar_tab .changepwdBtn {
+    cursor: pointer;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #216af5;
+    margin-top: 12px;
+}
+
+.SettingComponent .setting_content .Setting_1 .profile_birth {
+    position: relative;
+}
+
+.SettingComponent .setting_content .Setting_1 .profile_birth img {
+    cursor: pointer;
+}
+
+.SettingComponent .setting_content .Setting_1 .profile_input:not(:first-child),
+.SettingComponent .setting_content .Setting_2 .profile_input:not(:first-child) {
+    margin-top: 20px;
+}
+
+.SettingComponent .setting_content .profile_input .input_label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1b1b1b;
+    margin-bottom: 10px;
+}
+
+.NightMode .SettingComponent .setting_content .profile_input .input_label {
+    color: white;
+}
+
+.SettingComponent .setting_content .profile_input.profile_flag .input_text {
+    padding: 0px;
+}
+
+.SettingComponent .setting_content .profile_input .PhoneInputCountry {
+    display: flex;
+    padding: 27px 9px;
+    background-color: #f0f5fb;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 1px solid #e1e4eb;
+}
+
+.NightMode .SettingComponent .setting_content .profile_input .PhoneInputCountry {
+    background-color: #171b27;
+    color: white;
+    border-right: 1px solid #303240;
+}
+
+.PhoneInputCountryIcon--border {
+    box-shadow: none !important;
+}
+
+.SettingComponent .setting_content .profile_flag img {
+    width: 28px !important;
+    height: 16px !important;
+}
+
+.SettingComponent .setting_content .profile_flag input {
+    padding-left: 30px;
+}
+
+.SettingComponent .setting_content .profile_input .flag_div img {
+    width: 28px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+.SettingComponent .setting_content .profile_input .input_text {
+    border: 1px solid #e1e4eb;
+    border-radius: 15px;
+    padding: 24px 30px 24px 30px;
+    width: 400px;
+}
+
+.NightMode .SettingComponent .setting_content .profile_input .input_text {
+    border: 1px solid #303240;
+}
+
+.SettingComponent .setting_content .profile_input .input_text input,
+.SettingComponent .setting_content .profile_input.gender .input_text select {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: transparent;
+}
+
+.NightMode .SettingComponent .setting_content .profile_input .input_text input,
+.NightMode .SettingComponent .setting_content .profile_input.gender .input_text select {
+    color: white;
+}
+
+.SettingComponent .setting_content .profile_input .input_text {
+    display: flex;
+    align-items: center;
+}
+
+.SettingComponent .setting_content .profile_input.country .input_text {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.SettingComponent .setting_content .profile_input img {
+    width: 18px;
+    height: 20px;
+}
+
+.SettingComponent .setting_content .profile_input i {
+    color: gray;
+}
+
+.SettingComponent .setting_content .Setting_2 .profile_link {
+    margin-top: 50px;
+}
+
+.SettingComponent .setting_content .Setting_2 .profile_link .link_title {
+    display: flex;
+}
+
+.SettingComponent .setting_content .Setting_2 .profile_link .link_title .link_title_label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1b1b1b;
+    margin-right: 7px;
+}
+
+.NightMode .SettingComponent .setting_content .Setting_2 .profile_link .link_title .link_title_label {
+    color: white;
+}
+
+.SettingComponent .setting_content .Setting_2 .profile_link .link_title .link_title_comment {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #a9adbd;
+    display: flex;
+    align-items: flex-end;
+}
+
+.SettingComponent .setting_content .Setting_2 .profile_link .link {
+    display: flex;
+}
+
+.SettingComponent .setting_content .Setting_2 .profile_link .link .link_label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+    margin-top: 15px;
+}
+
+.SettingComponent .setting_content .Setting_2 .profile_link .link img {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+}
+
+.SettingComponent .setting_content .btnDiv {
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+
+.SettingComponent .setting_content .settingSaveBtn {
+    background: linear-gradient(0deg, #216af5, #216af5);
+    box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 0.4);
+    border-radius: 15px;
+    width: 99px;
+    height: 51px;
+    cursor: pointer;
+
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.changePasswordModal .modal-content {
+    width: 561px;
+    height: 610px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.changePasswordModal .modal-content .modal_header .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b1b1b;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e1e4eb;
+}
+
+.NightModal.changePasswordModal .modal-content .modal_header .title {
+    color: white;
+    border-bottom: 2px solid #303240;
+}
+
+.changePasswordModal .modal-content .modal_header .close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.NightModal.changePasswordModal .modal-content .modal_header .close {
+    color: white;
+}
+
+.changePasswordModal .modal-content .modal_content {
+    padding-top: 10px;
+}
+
+.changePasswordModal .modal-content .modal_content .inputGroup {
+    margin-top: 20px;
+}
+
+.errText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color: red;
+    position: absolute;
+    font-size: 18px;
+}
+
+.changePasswordModal .modal-content .modal_content .inputGroup .inputLabel {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1b1b1b;
+}
+
+.NightModal.changePasswordModal .modal-content .modal_content .inputGroup .inputLabel {
+    color: white;
+}
+
+.changePasswordModal .modal-content .modal_content .inputGroup .input {
+    margin-top: 15px;
+    border: 1px solid #e1e4eb;
+    border-radius: 15px;
+    display: flex;
+    width: 501px;
+    height: 70px;
+    align-items: center;
+    padding: 24px 30px;
+}
+
+.NightModal.changePasswordModal .modal-content .modal_content .inputGroup .input {
+    border: 1px solid #303240;
+}
+
+.changePasswordModal .modal-content .modal_content .inputGroup .input img {
+    width: 22px;
+    height: 14px;
+}
+
+.changePasswordModal .modal-content .modal_content .inputGroup .input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.NightModal.changePasswordModal .modal-content .modal_content .inputGroup .input input {
+    color: white;
+}
+
+.changePasswordModal .modal-content .modal_content .confirmBtn {
+    width: 501px;
+    height: 70px;
+    background: linear-gradient(0deg, #216af5, #216af5);
+    /* box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 0.4); */
+    border-radius: 15px;
+    margin-top: 30px;
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media (max-width: 1366px) {
+    .SettingComponent .automargin_content {
+        width: 630px;
+    }
+
+    .SettingComponent .setting_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SettingComponent .setting_content .Setting_2 {
+        margin-left: 195px;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .SettingComponent .automargin_content {
+        width: 100%;
+    }
+
+    .SettingComponent .setting_content .Setting_1 {
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+    }
+
+    .SettingComponent .setting_content .Setting_2 {
+        margin-left: 0px;
+    }
+
+    .SettingComponent .setting_content .Setting_1 .avatar_tab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .SettingComponent .setting_content .profile_input .input_text {
+        width: 100%;
+        min-width: 250px;
+    }
+
+    .SettingComponent .setting_content .Setting_2 .profile_link .link .link_label {
+        font-size: 15px;
+    }
+
+    .SettingComponent .setting_content .settingSaveBtn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+    .SettingComponent .setting_content {
+        height: calc(100vh - 165px);
+        overflow: auto;
+    }
+
+    .changePasswordModal {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .changePasswordModal .modal-content {
+        width: 303px;
+        height: 390px;
+        border-radius: 13px;
+        padding: 15px;
+    }
+
+    .changePasswordModal .modal-content .modal_header .title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .changePasswordModal .modal-content .modal_header .close {
+        right: 26px;
+        top: 7px;
+    }
+
+    .changePasswordModal .modal-content .modal_header .close i {
+        font-size: 12px;
+    }
+
+    .changePasswordModal .modal-content .modal_content {
+        padding-top: 0px;
+    }
+
+    .changePasswordModal .modal-content .modal_content .inputGroup {
+        margin-top: 15px;
+    }
+
+    .changePasswordModal .modal-content .modal_content .inputGroup .input {
+        margin-top: 10px;
+    }
+
+    .changePasswordModal .modal-content .modal_content .inputGroup .inputLabel {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .errText {
+        font-size: 14px;
+    }
+
+    .changePasswordModal .modal-content .modal_content .inputGroup .input {
+        width: 262px;
+        height: 40px;
+        border-radius: 10px;
+        padding: 11px 13px;
+    }
+
+    .changePasswordModal .modal-content .modal_content .inputGroup .input input {
+        font-size: 12px;
+    }
+
+    .changePasswordModal .modal-content .modal_content .inputGroup .input img {
+        width: 12px;
+        height: 7.65px;
+    }
+
+    .changePasswordModal .modal-content .modal_content .confirmBtn {
+        width: 273px;
+        height: 35px;
+        border-radius: 8px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 25px;
+    }
+
+    .SettingComponent .setting_content .profile_input .input_text {
+        padding: 19px 23px;
+    }
+}
+
+/*Slamchat Component*/
+.SlamchatComponent {
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+}
+
+.SlamchatComponent > div {
+    width: 50%;
+}
+
+.SlamchatComponent .Slamchat_1 {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent {
+    width: 520px;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent .Slamchat_1_Header {
+    display: none;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .Slamchat_1_Header > img {
+    width: 159px;
+    height: 33px;
+    margin-top: 26px;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent {
+    margin-top: 100px;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent .mainContent {
+    margin-top: 65px;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent,
+.SlamchatComponent .Slamchat_2 .chatContent .mainContent {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .headerImg {
+    display: flex;
+    justify-content: center;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .headerImg img {
+    width: 308px;
+    height: 64px;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .signupTitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #a9adbd;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatInput {
+    margin-top: 30px;
+    display: flex;
+    height: 70px;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatInput input {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid #e1e4eb;
+    outline: none;
+    padding-left: 26px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #a9adbd;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatInput div {
+    background: #216af5;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatInput div img {
+    width: 42px;
+    height: 42px;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatDescription {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #a9adbd;
+    margin-top: 30px;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .appStore {
+    margin-top: 50px;
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .mainContent .appStore img {
+    width: 240px;
+    height: 80px;
+}
+
+.SlamchatComponent .Slamchat_2 {
+    background: radial-gradient(112.11% 112.11% at -4.16% -5.25%, #7ba9ff 0%, #1260f4 100%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent {
+    width: 437px;
+    /* margin-left: 233px; */
+}
+
+.SlamchatComponent .Slamchat_1 .chatContent .chatHeader {
+    display: none;
+    position: relative;
+}
+
+.SlamchatComponent .chatContent > .chatHeader {
+    display: flex;
+    margin-top: 20px;
+}
+
+.SlamchatComponent .chatContent .chatHeader .languageSelector {
+    display: flex;
+    padding: 16px 13px;
+    align-items: center;
+    border: 2px solid #1b1b1b;
+    border-radius: 15px;
+    width: 108px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.SlamchatComponent .chatContent .chatHeader .languageSelector .flag {
+    width: 30px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.SlamchatComponent .chatContent .chatHeader .languageSelector .countryName {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent .chatHeader .languageSelector i {
+    color: #e1e4eb;
+    font-size: 8px;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent .chatHeader .languageSelector i {
+    color: white;
+}
+
+.SlamchatComponent .chatContent .chatHeader .languageDropdown {
+    position: absolute;
+    border-radius: 15px;
+    border: 2px solid #1b1b1b;
+    width: 108px;
+    height: 113px;
+    padding: 15px;
+    top: 75px;
+}
+
+.SlamchatComponent .chatContent .chatHeader .languageDropdown .languageCountry {
+    display: flex;
+    height: 16px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.SlamchatComponent .chatContent .chatHeader .languageDropdown .languageCountry:not(:first-child) {
+    margin-top: 15px;
+}
+
+.SlamchatComponent .chatContent .chatHeader .languageDropdown .languageCountry img {
+    width: 27px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+.SlamchatComponent .chatContent .chatHeader .languageDropdown .languageCountry .countryName {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.SlamchatComponent .chatContent .chatHeader .downloadBtn {
+    width: 160px;
+    height: 50px;
+    background: #1b1b1b;
+    box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 0.4);
+    border-radius: 12px;
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.SlamchatComponent .chatContent .chatHeader .downloadBtn:active {
+    /* margin-left: -2px; */
+    margin-top: 2px;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent .mainContent .chatSlider {
+    width: 100%;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent .mainContent .chatSlider .headerTitle {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent .mainContent .chatSlider .imgDescription {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.carousel .slide img {
+    width: 90% !important;
+}
+
+.carousel .control-dots .dot.selected {
+    width: 26px;
+    border-radius: 12px;
+}
+
+.SlamchatComponent .Slamchat_2 .chatContent .mainContent .chatSlider .carousel.carousel-slider .control-arrow {
+    top: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 540px) {
+    .SlamchatComponent {
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .SlamchatComponent > div {
+        width: 100%;
+    }
+
+    .SlamchatComponent .Slamchat_1 {
+        order: 2;
+    }
+
+    .SlamchatComponent .Slamchat_2 {
+        order: 1;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent {
+        width: 100%;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .Slamchat_1_Header > img {
+        display: none;
+    }
+
+    .SlamchatComponent .Slamchat_2 .chatContent .mainContent {
+        padding: 0px 20px;
+    }
+
+    .SlamchatComponent .Slamchat_2 .chatContent .Slamchat_1_Header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent,
+    .SlamchatComponent .Slamchat_2 .chatContent .mainContent {
+        display: block;
+        height: auto;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent {
+        margin-top: 0px;
+    }
+
+    .SlamchatComponent .Slamchat_1 {
+        margin-right: 0px;
+        padding: 40px 20px;
+    }
+
+    .SlamchatComponent .Slamchat_2 .chatContent .chatHeader {
+        display: flex;
+        position: relative;
+    }
+
+    .SlamchatComponent .Slamchat_2 .chatContent .Slamchat_1_Header > img {
+        width: 79px;
+        height: 16px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .headerImg img {
+        width: 154px;
+        height: 32px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .signupTitle {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 32px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatInput {
+        margin-top: 14px;
+        height: 35px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatInput input {
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        font-size: 10px;
+        line-height: 12px;
+        padding-left: 13.5px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatInput div {
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatInput div img {
+        width: 17.5px;
+        height: 14.7px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .chatDescription {
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 17px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .appStore img {
+        width: 118px;
+        height: 38px;
+    }
+
+    .SlamchatComponent .Slamchat_1 .chatContent .mainContent .appStore {
+        display: flex;
+        justify-content: center;
+    }
+
+    .SlamchatComponent .Slamchat_2 .chatContent {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .SlamchatComponent .Slamchat_2 .chatContent > .chatHeader {
+        display: none;
+    }
+
+    .SlamchatComponent .Slamchat_2 {
+        padding: 56px 20px;
+    }
+
+    .SlamchatComponent .Slamchat_2 .chatContent .mainContent .chatSlider .headerTitle {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .SlamchatComponent .Slamchat_2 .chatContent .mainContent .chatSlider .imgDescription {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        margin-top: 7.5px;
+    }
+
+    .carousel .control-dots {
+        bottom: -13px !important;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .languageSelector {
+        width: 54px;
+        height: 24.5px;
+        border-radius: 7.5px;
+        border: 1px solid white;
+        padding: 8px 7.5px;
+        margin-right: 24.5px;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .languageSelector .flag {
+        width: 13.5px;
+        height: 8px;
+        margin-right: 2.5px;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .languageSelector .countryName {
+        font-size: 9px;
+        line-height: 11px;
+        color: white;
+        margin-right: 7.5px;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .downloadBtn {
+        width: 79.5px;
+        height: 24.5px;
+        border-radius: 6px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .languageDropdown {
+        border: 1px solid white;
+        border-radius: 7.5px;
+        width: 54px;
+        height: 56.5px;
+        top: 35px;
+        padding: 8.5px 7.5px;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .languageDropdown .languageCountry {
+        height: 8px;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .languageDropdown .languageCountry:not(:first-child) {
+        margin-top: 7.5px !important;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .languageDropdown .flag {
+        width: 13.5px !important;
+        height: 8px !important;
+        margin-right: 3.5px !important;
+    }
+
+    .SlamchatComponent .chatContent .chatHeader .languageDropdown .languageCountry .countryName {
+        color: white;
+        font-size: 9px;
+        line-height: 11px;
+    }
+}
+
+/*LoginComponent*/
+.LoginComponent .header > img {
+    display: none;
+}
+
+.LoginComponent .header .avatar {
+    display: none;
+}
+
+.LoginComponent .Content {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 90px);
+    overflow: hide;
+}
+
+.LoginComponent .Content .Content1 {
+    /* width: 575px; */
+    width: 50vw;
+    margin-left: 330px;
+}
+
+.LoginComponent .Content .Content2 {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.LoginComponent .Content .Content1 .LogoImg {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 25px;
+}
+
+.LoginComponent .Content .subTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 90px;
+    color: #1b1b1b;
+    margin-top: 39px;
+}
+
+.LoginComponent .Content .subLoginTitle {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 90px;
+    color: #1b1b1b;
+    margin-top: 130px;
+}
+
+.NightMode.LoginComponent .Content .subLoginTitle {
+    color: white;
+}
+
+.NightMode.LoginComponent .Content .subTitle {
+    color: white;
+}
+
+.LoginComponent .Content .subDes {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+    margin-top: 20px;
+}
+
+.NightMode.LoginComponent .Content .subDes {
+    color: #a8abc1;
+}
+
+.LoginComponent .Content .inputGroup {
+    margin-top: 30px;
+}
+
+.LoginComponent .Content .inputGroup .label {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1b1b1b;
+}
+
+.NightMode.LoginComponent .Content .inputGroup .label {
+    color: white;
+}
+
+.LoginComponent .Content .inputText {
+    width: 575px;
+    height: 70px;
+    border: 1px solid #e1e4eb;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+    padding: 24px 27px;
+}
+
+.NightMode.LoginComponent .Content .inputText {
+    border: 1px solid #303240;
+}
+
+.LoginComponent .Content .inputText .PhoneInputCountry {
+    display: flex;
+    padding: 33.8px 12px;
+    background-color: #f0f5fb;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 1px solid #e1e4eb;
+    margin-left: -27px;
+    margin-top: -24px;
+}
+
+.NightMode.LoginComponent .Content .inputText .PhoneInputCountry {
+    background-color: #171b27;
+    color: white;
+    border-right: 1px solid #303240;
+}
+
+.LoginComponent .Content .inputText input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+    background-color: transparent;
+}
+
+.LoginComponent .Content .checkGroup {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.LoginComponent .Content .checkGroup input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #e1e4eb;
+    border-radius: 2px;
+    margin-right: 12px;
+}
+
+.LoginComponent .Content .checkGroup .checkLabel {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+}
+
+.LoginComponent .Content .loginBtn {
+    width: 575px;
+    height: 70px;
+    background: linear-gradient(0deg, #216af5, #216af5);
+    box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 0.4);
+    border-radius: 15px;
+    margin-top: 30px;
+    display: flex;
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.LoginComponent .Content .loginFooter1,
+.LoginComponent .Content .loginFooter2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #a9adbd;
+    margin-top: 20px;
+}
+
+.LoginComponent .Content .loginFooter1 a {
+    color: #216af5;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.LoginComponent .Content .loginFooter2 {
+    margin-top: 10px;
+    color: #216af5;
+    cursor: pointer;
+}
+
+.LoginComponent .Content .RegisterContent .registerText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+    margin-top: 30px;
+}
+
+.LoginComponent .Content .RegisterContent .registerText a {
+    color: #216af5;
+    cursor: pointer;
+}
+
+.LoginComponent .Content .RegisterContent .registerFooter {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #a9adbd;
+    margin-top: 20px;
+}
+
+.LoginComponent .Content .RegisterContent .registerFooter a {
+    color: #216af5;
+    cursor: pointer;
+}
+
+.LoginComponent .Content2 .LogoImg {
+    display: none;
+}
+
+.LoginComponent .Content1 .LogoImg img {
+    width: 182px;
+    height: 37px;
+}
+
+.LoginComponent .Content2 > img {
+    margin-top: 204px;
+    width: 784px;
+    height: 668px;
+}
+
+@media (max-width: 1000px) {
+    .LoginComponent .Content {
+        overflow: auto;
+        height: calc(100vh - 90px);
+        flex-direction: column;
+        min-height: inherit;
+        justify-content: unset;
+        padding: 20px;
+        margin-top: -90px;
+    }
+
+    .LoginComponent .Content .Content1 {
+        order: 2;
+        width: 100%;
+        margin: auto;
+    }
+
+    .LoginComponent .Content .Content2 {
+        order: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .LoginComponent .Content1 .LogoImg img {
+        width: 247px;
+        height: 48px;
+        display: none;
+    }
+
+    .LoginComponent .Content2 .LogoImg {
+        display: block;
+        margin-top: 135px;
+        /* margin-bottom: 30px;*/
+    }
+
+    .LoginComponent .Content1 .LogoImg {
+        display: flex;
+        justify-content: center;
+        /* display: none; */
+        margin-top: 26px;
+    }
+
+    .LoginComponent .Content2 .LogoImg img {
+        width: 247px;
+        height: 48px;
+    }
+
+    .LoginComponent .Content2 > img {
+        margin-top: 58px;
+    }
+
+    .LoginComponent .Content .loginBtn {
+        width: 100%;
+    }
+
+    .LoginComponent .Content .inputText {
+        width: 100%;
+    }
+
+    .LoginComponent .Content .subLoginTitle {
+        margin-top: 66px;
+    }
+}
+
+@media (max-width: 640px) {
+    .LoginComponent .header .option_menu {
+        display: none;
+    }
+
+    .LoginComponent .LogoImg img {
+        width: 247px;
+        height: 48px;
+    }
+
+    .LoginComponent .Content2 > img {
+        width: 100%;
+        height: 328px;
+        margin-top: 58px;
+        /* margin-bottom: 66px; */
+    }
+
+    .LoginComponent .Content .subLoginTitle {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .LoginComponent .Content .subDes {
+        font-size: 12px;
+    }
+
+    .LoginComponent .Content .inputGroup .label {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .LoginComponent .Content .inputText {
+        height: 40px;
+        padding: 11px 13px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .LoginComponent .Content .inputText input {
+        font-size: 12px;
+    }
+
+    .LoginComponent .Content .inputText .PhoneInputCountry {
+        display: flex;
+        padding: 19px 6px;
+        background-color: #f0f5fb;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-right: 1px solid #e1e4eb;
+        margin-left: -13px;
+        margin-top: -11px;
+        /* border-radius: 10px; */
+        position: relative;
+    }
+
+    .LoginComponent .Content .checkGroup .checkLabel {
+        font-size: 12px;
+    }
+
+    .LoginComponent .Content .loginBtn {
+        height: 40px;
+        border-radius: 10px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .LoginComponent .Content .loginFooter1,
+    .LoginComponent .Content .loginFooter2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .LoginComponent .Content .RegisterContent .registerText {
+        font-size: 12px;
+    }
+
+    .LoginComponent .Content .RegisterContent .registerFooter {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .LoginComponent .errText {
+        top: 40px;
+    }
+}
+
+/*Stacking Component*/
+.StackingComponent .stackingContent .title {
+    display: none;
+}
+
+.StackingComponent .stackingContent {
+    width: 100%;
+}
+
+.NightMode .disconnect-title {
+    color: white;
+}
+
+.StackingComponent .button-blue-filled,
+.StackingComponent .button-claim {
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    /* font-family: SF Pro Display Regular; */
+    font-size: 14px;
+    transition-duration: 300ms;
+    border-color: #216af5;
+    background-color: #216af5;
+    color: white;
+
+    width: 123px;
+    height: 45px;
+}
+
+.StackingComponent .button-grey-filled {
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: transparent;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    transition-duration: 300ms;
+    border-color: #f0f5fb;
+    background-color: #f0f5fb;
+
+    width: 123px;
+    height: 45px;
+}
+
+.NightMode .StackingComponent .button-grey-filled {
+    border-color: #1D2333;
+    background: #1D2333;
+    color: white;
+}
+
+.StackingComponent .button-blue {
+    width: 123px;
+    height: 45px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    transition-duration: 300ms;
+    border-color: #216af5;
+    color: #216af5;
+}
+
+.StackingComponent .stackingContent .subtitle {
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 90px;
+    /* identical to box height */
+    color: #1b1b1b;
+    margin-bottom: 20px;
+}
+
+.NightMode .StackingComponent .stackingContent .subtitle {
+    color: white;
+}
+
+.StackingComponent .main-content,
+.StackingComponent .expanded {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.StackingComponent .staking1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.StackingComponent .content-detail {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9adbd;
+
+    margin-top: 15px;
+}
+
+.StackingComponent .content1-detail {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1b1b1b;
+    margin-top: 20px;
+}
+
+.StackingComponent .poolname {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #216af5;
+    margin-top: 20px;
+}
+
+.StackingComponent .staking1 .chosse-pool {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.StackingComponent .staking1 .chosse-pool .button-blue-filled {
+    margin-right: 20px;
+    box-shadow: 0px 20px 19px -21px rgb(83 159 249 / 40%);
+}
+
+.StackingComponent .staking1 .chosse-pool .button-grey-filled {
+    margin-right: 20px;
+    box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 40%);
+}
+
+.StackingComponent .staking1 .stake-status,
+.StackingComponent .staking1 .stake-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.StackingComponent .staking1 .stake-status .enabled {
+    color: #1b1b1b;
+}
+
+.StackingComponent .staking1 .stake-status .disabled {
+    color: #a9adbd;
+}
+
+.StackingComponent .staking1 .button-get {
+    margin-top: 20px;
+}
+
+.StackingComponent .staking1 .stake-info {
+    color: #1b1b1b;
+    margin-top: 50px;
+}
+
+.StackingComponent .staking1 .button-claim {
+    width: 202px;
+    margin-top: 20px;
+}
+
+.StackingComponent .staking2 .up-panel {
+    margin-top: 100px;
+    background: #216af5;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    width: 360px;
+    height: 72px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StackingComponent .staking2 .up-panel .quick-pool {
+    font-family: SF Pro Display Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.StackingComponent .staking2 .center-panel {
+    background: #ffffff;
+    border: 2px solid #eff2f5;
+    width: 360px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.StackingComponent .staking2 .center-panel .panel-content-text {
+    font-family: SF Pro Display Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1b1b1b;
+
+    margin-top: 20px;
+}
+
+.StackingComponent .staking2 .center-panel .content-detail {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.StackingComponent .staking2 .down-panel {
+    background: #ffffff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: 2px solid #eff2f5;
+    border-right: 2px solid #eff2f5;
+    border-bottom: 2px solid #eff2f5;
+
+    width: 360px;
+    height: 72px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StackingComponent .staking2 .down-panel .panel-content-text {
+    font-family: SF Pro Display Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.HoldingNFTComponent .main-content,
+.HoldingNFTComponent .expanded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    height: calc(100vh - 100px);
+}
+
+.HoldingNFTComponent .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 90px;
+    color: #1b1b1b;
+    margin-left: -760px;
+    margin-top: 50px;
+}
+
+.NightMode .HoldingNFTComponent .title {
+    color: #ffffff;
+}
+
+.HoldingNFTComponent .content-panels {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.HoldingNFTComponent .content-panels .NFT-content {
+    padding-right: 75px;
+}
+
+.HoldingNFTComponent .content-panels .NFT-content img {
+    width: 325px;
+    height: 325px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.HoldingNFTComponent .NFT-detail {
+    width: 325px;
+    height: 236px;
+    border-radius: 0px 0px 25px 25px;
+
+    background: #f0f5fb;
+
+    padding: 22px 20px 22px 20px;
+}
+
+.NightMode .HoldingNFTComponent .NFT-detail {
+    background: #1d2333;
+}
+
+.HoldingNFTComponent .NFT-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b1b1b;
+}
+
+.NightMode .HoldingNFTComponent .NFT-title {
+    color: #ffffff;
+}
+
+.HoldingNFTComponent .content-panels .NFT-content .NFT-detail p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.HoldingNFTComponent .content-panels .NFT-content .NFT-detail .collection {
+    margin-top: 15px;
+    color: #a9adbd;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.HoldingNFTComponent .content-panels .NFT-content .NFT-detail .price-slm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.NightMode .HoldingNFTComponent .content-panels .NFT-content .NFT-detail .price {
+    color: #ffffff;
+}
+
+.HoldingNFTComponent .content-panels .NFT-content .NFT-detail .slm {
+    color: #216af5;
+}
+
+.HoldingNFTComponent .content-panels .NFT-content .NFT-detail .widgetLine {
+    border-top: 2px solid rgba(225, 228, 235, 0.6);
+    margin-top: 20px;
+}
+
+.NightMode .HoldingNFTComponent .content-panels .NFT-content .NFT-detail .widgetLine {
+    border-top: 2px solid rgba(54, 54, 54, 0.6);
+}
+
+.HoldingNFTComponent .content-panels .NFT-content .NFT-detail .button-view {
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    transition-duration: 300ms;
+    border-color: #216af5;
+    background-color: #216af5;
+    color: white;
+
+    width: 285px;
+    height: 49px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1280px) and (max-width: 1366px) and (max-width: 1600px) {
+    .HoldingNFTComponent .title {
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+    }
+
+    .HoldingNFTComponent .content-panels {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HoldingNFTComponent .content-panels .NFT-content {
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1280px) {
+    .subcontent {
+        height: calc(100vh - 300px);
+        overflow: auto;
+    }
+}
+@media (max-width: 640px) {
+    .HoldingNFTComponent .title {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 6px;
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .HoldingNFTComponent .content-panels {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HoldingNFTComponent .content-panels .NFT-content {
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .HoldingNFTComponent .main-content,
+    .HoldingNFTComponent .expanded {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .HoldingNFTComponent .content-panels .NFT-content img {
+        width: 335px;
+        height: 335px;
+    }
+
+    .HoldingNFTComponent .NFT-detail {
+        width: 335px;
+    }
+
+    .HoldingNFTComponent .content-panels .NFT-content .NFT-detail .button-view {
+        width: 295px;
+    }
+}
+
+.Resetcomponent .header > img {
+    display: none;
+}
+
+.Resetcomponent .header .avatar {
+    display: none;
+}
+
+.Resetcomponent .Content {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+.Resetcomponent .Content .Content1 {
+    width: 100%;
+    padding-left: 317px;
+    padding-right: 77px;
+}
+
+.Resetcomponent .Content .Content2 {
+    width: 50vw;
+}
+
+.Resetcomponent .Content .Content1 .LoginContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.Resetcomponent .Content .Content1 .LogoImg {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Resetcomponent .Content .subTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 90px;
+    color: #1b1b1b;
+    margin-top: 219px;
+}
+
+.NightMode.Resetcomponent .Content .subTitle {
+    color: white;
+}
+
+.Resetcomponent .Content .subDes {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+    margin-top: 30px;
+}
+
+.NightMode.Resetcomponent .Content .subDes {
+    color: #a8abc1;
+}
+
+.Resetcomponent .Content .inputGroup {
+    margin-top: 30px;
+}
+
+.Resetcomponent .Content .inputGroup .label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1b1b1b;
+}
+
+.NightMode.Resetcomponent .Content .inputGroup .label {
+    color: white;
+}
+
+.Resetcomponent .Content .inputText {
+    width: 575px;
+    height: 70px;
+    border: 1px solid #e1e4eb;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+    padding: 24px 27px;
+}
+
+.NightMode.Resetcomponent .Content .inputText {
+    border: 1px solid #303240;
+}
+
+.Resetcomponent .Content .inputText .PhoneInputCountry {
+    display: flex;
+    padding: 33.8px 12px;
+    background-color: #f0f5fb;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 1px solid #e1e4eb;
+    margin-left: -27px;
+    margin-top: -24px;
+}
+
+.NightMode.Resetcomponent .Content .inputText .PhoneInputCountry {
+    background-color: #171b27;
+    color: white;
+    border-right: 1px solid #303240;
+}
+
+.Resetcomponent .Content .inputText input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+    background-color: transparent;
+}
+
+.Resetcomponent .Content .checkGroup {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Resetcomponent .Content .checkGroup input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #e1e4eb;
+    border-radius: 2px;
+    margin-right: 12px;
+}
+
+.Resetcomponent .Content .checkGroup .checkLabel {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+}
+
+.Resetcomponent .Content .loginBtn {
+    width: 575px;
+    height: 70px;
+    background: linear-gradient(0deg, #216af5, #216af5);
+    box-shadow: 0px 20px 19px -21px rgba(83, 159, 249, 0.4);
+    border-radius: 15px;
+    margin-top: 30px;
+    display: flex;
+    /* font-family: SF Pro Display Regular; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Resetcomponent .Content .loginFooter1,
+.Resetcomponent .Content .loginFooter2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #a9adbd;
+    margin-top: 20px;
+}
+
+.Resetcomponent .Content .loginFooter1 a {
+    color: #216af5;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.Resetcomponent .Content .loginFooter2 {
+    margin-top: 10px;
+    color: #216af5;
+    cursor: pointer;
+}
+
+.Resetcomponent .Content .RegisterContent .registerText {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9adbd;
+    margin-top: 30px;
+}
+
+.Resetcomponent .Content .RegisterContent .registerText a {
+    color: #216af5;
+    cursor: pointer;
+}
+
+.Resetcomponent .Content .RegisterContent .registerFooter {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #a9adbd;
+    margin-top: 20px;
+}
+
+.Resetcomponent .Content .RegisterContent .registerFooter a {
+    color: #216af5;
+    cursor: pointer;
+}
+
+.Resetcomponent .Content1 .LogoImg img {
+    width: 182px;
+    height: 37px;
+    margin-top: 25px;
+}
+
+.Resetcomponent .Content2 > img {
+    width: 400px;
+}
+
+@media (max-width: 1024px) {
+    .Resetcomponent .Content {
+        overflow: auto;
+        height: calc(100vh - 90px);
+        flex-direction: column;
+        min-height: inherit;
+        justify-content: unset;
+        /* padding: 20px; */
+        margin-top: -90px;
+    }
+
+    .subcontent {
+        height: 40vh;
+    }
+
+    .Resetcomponent .Content .Content1 {
+        order: 2;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .Resetcomponent .Content .Content1 .LoginContent {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Resetcomponent .Content .Content2 {
+        order: 1;
+        width: 100%;
+        display: block;
+        /* flex-direction: column; */
+        /* height: 375px; */
+        /* justify-content: center;*/
+    }
+
+    .Resetcomponent .Content1 .LogoImg img {
+        width: 247px;
+        height: 48px;
+    }
+
+    .Resetcomponent .Content1 .LogoImg {
+        display: flex;
+        justify-content: center;
+        margin-top: 26px;
+    }
+
+    .Resetcomponent .Content .loginBtn {
+        width: 100%;
+    }
+
+    .Resetcomponent .Content .inputText {
+        width: 100%;
+    }
+
+    .Resetcomponent .LogoImg img {
+        width: 100%;
+    }
+
+    .Resetcomponent .Content .Content1 .LoginContent {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .Resetcomponent .header .option_menu {
+        display: none;
+    }
+
+    .subcontent {
+        height: 100%;
+    }
+
+    .StackingComponent .main-content {
+        height: calc(100vh - 140px);
+        overflow: auto;
+        padding-top: 430px;
+        margin-top: 0 !important;
+    }
+
+    .Resetcomponent .LogoImg img {
+        height: 375px;
+        width: 100%;
+    }
+
+    .Resetcomponent .Content2 > img {
+        width: 252px;
+        height: 506px;
+        margin-top: 30px;
+        margin-bottom: 56px;
+    }
+
+    .Resetcomponent .Content .subTitle {
+        font-size: 36px;
+        line-height: 43px;
+        margin-top: 15px;
+    }
+
+    .Resetcomponent .Content .subDes {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .Resetcomponent .Content .inputGroup .label {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .Resetcomponent .Content .inputText {
+        height: 40px;
+        padding: 11px 13px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .Resetcomponent .Content .inputText input {
+        font-size: 12px;
+    }
+
+    .Resetcomponent .Content .inputText .PhoneInputCountry {
+        display: flex;
+        padding: 19px 6px;
+        background-color: #f0f5fb;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-right: 1px solid #e1e4eb;
+        margin-left: -13px;
+        margin-top: -11px;
+        position: relative;
+    }
+
+    .Resetcomponent .Content .checkGroup .checkLabel {
+        font-size: 12px;
+    }
+
+    .Resetcomponent .Content .loginBtn {
+        height: 40px;
+        border-radius: 10px;
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 20px;
+    }
+
+    .Resetcomponent .Content .loginFooter1,
+    .Resetcomponent .Content .loginFooter2 {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 15px;
+        margin-bottom: 158px;
+    }
+
+    .Resetcomponent .Content .RegisterContent .registerText {
+        font-size: 12px;
+    }
+
+    .Resetcomponent .Content .RegisterContent .registerFooter {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .Resetcomponent .errText {
+        top: 40px;
+    }
+
+    .Resetcomponent .Content .Content1 .LoginContent {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .Resetcomponent .Content .Content1 .LogoImg {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .Resetcomponent .Content1 .LogoImg img {
+        width: 247px;
+        height: 48px;
+        margin-top: 0px;
+    }
+
+    .Resetcomponent .Content .inputGroup {
+        margin-top: 20px;
+    }
+}
+
+.WalletInfo-Dialog {
+    position: absolute;
+    width: 344px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    border: 2px solid #eff2f5;
+    right: -96px;
+    margin-top: 7px;
+    padding: 33px 30px 0px 30px;
+}
+
+.NightMode .WalletInfo-Dialog {
+    background: #171b27;
+    border: 2px solid #303240;
+    border-radius: 10px;
+}
+
+.WalletInfo-Dialog .walletAddress {
+    display: flex;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #1b1b1b;
+}
+
+.NightMode .WalletInfo-Dialog .walletAddress {
+    color: #ffffff;
+}
+
+.NightMode .WalletInfo-Dialog .tokenInfo .balanceInfo .balance .text_white {
+    color: #ffffff;
+}
+
+.NightMode .WalletInfo-Dialog .Disconnect i {
+    color: #ffffff;
+}
+
+.WalletInfo-Dialog .walletAddress i {
+    position: absolute;
+    top: 23px;
+    margin-left: 5px;
+}
+
+.WalletInfo-Dialog .walletAddress {
+    display: flex;
+}
+
+.WalletInfo-Dialog .tokenInfo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.WalletInfo-Dialog .tokenInfo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.WalletInfo-Dialog .tokenInfo .balanceInfo .balance-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9adbd;
+}
+
+.WalletInfo-Dialog .tokenInfo .balanceInfo .balance {
+    margin-top: 7px;
+    display: flex;
+}
+
+.WalletInfo-Dialog .tokenInfo .balanceInfo .balance div:first-child {
+    font-family: "SF Pro Display Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1b1b1b;
+    margin-right: 10px;
+}
+
+.WalletInfo-Dialog .tokenInfo .balanceInfo .balance div:last-child {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9adbd;
+}
+
+.WalletInfo-Dialog .myProfile,
+.WalletInfo-Dialog .editProfile,
+.WalletInfo-Dialog .Disconnect {
+    font-family: "SF Pro Display Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1b1b1b;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.WalletInfo-Dialog .Disconnect {
+    display: flex;
+    align-items: center;
+    padding-bottom: 19px;
+    border-bottom: 2px solid #eff2f5;
+}
+
+.NightMode .WalletInfo-Dialog .Disconnect {
+    border-bottom: 2px solid #303240;
+}
+
+.WalletInfo-Dialog .Disconnect .disconnect-title {
+    margin-right: 21.86px;
+    font-size: 18px;
+}
+
+.WalletInfo-Dialog .Disconnect img {
+    width: 18px;
+    height: 18px;
+}
+
+.WalletInfo-Dialog .Disconnect i {
+    width: 18px;
+    height: 18px;
+}
+.WalletInfo-Dialog .terms a {
+    color: #a9adbd !important;
+    text-decoration: none;
+}
+
+
+.WalletInfo-Dialog .terms {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.WalletInfo-Dialog .copyright {
+    margin: 20px -30px 0px -30px;
+    display: flex;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9adbd;
+    padding: 16px 43px 17px 30px;
+    background: linear-gradient(0deg, #f0f5fb, #f0f5fb);
+}
+
+.NightMode .WalletInfo-Dialog .copyright {
+    background: linear-gradient(0deg, #1d2333, #1d2333);
+}
+
+@media (max-width: 640px) {
+    .WalletInfo-Dialog {
+        margin-top: 53px;
+        left: 25px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .HoldingNFTComponent .title {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .stackingContentBody {
+        flex-direction: column;
+        align-items: center;
+    }
+    .staking2 {
+        order: 1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .staking1 {
+        order: 2;
+        width: 100%;
+    }
+    .StackingComponent .main-content .staking2 .up-panel,
+    .StackingComponent .expanded .staking2 .up-panel {
+        margin-top: 0;
+    }
+
+    .staking1 .subtitle {
+        display: none;
+    }
+
+    .responsiveTitle {
+        display: block;
+        font-size: 36px;
+        font-weight: 700;
+        color: #000000;
+        padding: 0 20px;
+    }
+
+    .NightMode .responsiveTitle {
+        color: #ffffff;
+    }
+
+    .staking2 .up-panel,
+    .staking2 .center-panel,
+    .staking2 .down-panel {
+        width: 100% !important;
+    }
+
+    .StackingComponent .main-content,
+    .StackingComponent .expanded {
+        margin-top: 30px;
+    }
+
+    .staking1 .chosse-pool {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .HoldingNFTComponent .title {
+        font-size: 36px !important;
+        margin-left: -115px !important;
+    }
+}
